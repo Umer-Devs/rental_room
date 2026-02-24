@@ -1,0 +1,12 @@
+export { default as Hero } from './Hero';
+export { default as Hedaer } from './Hedaer';
+export { default as BookingForm } from './BookingForm';
+export { default as About } from './About';
+export { default as FeaturedRooms } from './FeaturedRooms';
+export { default as HowItWorks } from './HowItWorks';
+export { default as Benefits } from './Benefits';
+export { default as Testimonials } from './Testimonials';
+export { default as PopularCities } from './PopularCities';
+export { default as PremiumServices } from './PremiumServices';
+export { default as FAQ } from './FAQ';
+export { default as Footer } from './Footer';
