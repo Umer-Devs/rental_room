@@ -15,6 +15,7 @@ import {
 
 const Home = () => {
     return (
+        <>
         <main className="w-full flex flex-col">
             <Hero />
             <BookingForm />
@@ -28,6 +29,7 @@ const Home = () => {
             <FAQ />
             <Footer />
         </main>
+        </>
     );
 };
 

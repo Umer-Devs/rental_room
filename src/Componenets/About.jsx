@@ -33,7 +33,7 @@ const About = () => {
                             className="absolute -bottom-10 -right-10 z-20 bg-[#213C51] text-white p-10 rounded-[3rem] shadow-2xl max-w-[280px]"
                         >
                             <p className="text-4xl font-black mb-2">10+</p>
-                            <p className="text-white/60 text-xs font-black uppercase tracking-widest">{t('about_comp.stats.years')}</p>
+                            <p className="text-white/60 text-sm font-black uppercase tracking-widest">{t('about_comp.stats.years')}</p>
                         </motion.div>
 
                         {/* Background Texture */}
@@ -47,10 +47,10 @@ const About = () => {
                         viewport={{ once: true }}
                         transition={{ duration: 1, delay: 0.2 }}
                     >
-                        <div className="inline-flex items-center gap-2 px-4 py-2 mb-8 text-[10px] md:text-xs font-black tracking-[0.2em] text-[#213C51] uppercase bg-[#EDF1F8] rounded-full">
+                        <div className="inline-flex items-center gap-2 px-4 py-2 mb-8 text-[10px] md:text-sm font-black tracking-[0.2em] text-[#213C51] uppercase bg-[#EDF1F8] rounded-full">
                             {t('about_comp.badge')}
                         </div>
-                        <h2 className="text-4xl md:text-6xl font-black text-[#213C51] leading-tight mb-10 uppercase">
+                        <h2 className="text-4xl   md:text-5xl font-black text-[#213C51]    mb-10 uppercase">
                             {t('about_comp.title')} <br />
                             <span className="text-[#55A2C2] italic font-serif">{t('about_comp.title_italic')}</span>
                         </h2>

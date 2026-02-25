@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Quote, Star, UserCheck, Sparkles, Orbit } from 'lucide-react';
+
 import { useTranslation } from 'react-i18next';
 
 const Testimonials = () => {
@@ -21,6 +22,7 @@ const Testimonials = () => {
             avatar: "https://i.pravatar.cc/100?img=15",
             color: "#bce8ff"
         },
+
         {
             name: t('testimonials.items.ana.name'),
             role: t('testimonials.items.ana.role'),
@@ -58,7 +60,7 @@ const Testimonials = () => {
                         initial={{ opacity: 0, scale: 0.8 }}
                         whileInView={{ opacity: 1, scale: 1 }}
                         viewport={{ once: true }}
-                        className="inline-flex items-center gap-3 px-6 py-2.5 mb-10 text-[10px] md:text-xs font-black tracking-[0.3em] text-[#55A2C2] uppercase bg-white/5 backdrop-blur-2xl rounded-full border border-white/10 shadow-[0_0_30px_rgba(85,162,194,0.1)]"
+                        className="inline-flex items-center gap-3 px-6 py-2.5 mb-10 text-[10px] md:text-sm font-black tracking-[0.3em] text-[#55A2C2] uppercase bg-white/5 backdrop-blur-2xl rounded-full border border-white/10 shadow-[0_0_30px_rgba(85,162,194,0.1)]"
                     >
                         <Sparkles size={14} className="animate-pulse" /> {t('testimonials.badge')}
                     </motion.div>
@@ -67,7 +69,7 @@ const Testimonials = () => {
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
                         transition={{ duration: 1 }}
-                        className="text-6xl md:text-8xl font-black text-white leading-[0.9] uppercase tracking-tighter"
+                        className="text-6xl md:text-8xl font-black text-white leading-[0.9] uppercase  "
                     >
                         {t('testimonials.title')} <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#55A2C2] to-[#bce8ff] italic font-serif">{t('testimonials.title_italic')}</span> <br />
                         <span className="text-white/20">{t('testimonials.title_sub')}</span>
@@ -137,7 +139,7 @@ const Testimonials = () => {
                                         </div>
                                         <div>
                                             <h4 className="text-white font-black uppercase text-lg tracking-widest mb-1 group-hover:text-[#55A2C2] transition-colors">{item.name}</h4>
-                                            <p className="text-white/30 text-xs font-black uppercase tracking-[0.3em]">{item.role}</p>
+                                            <p className="text-white/30 text-sm font-black uppercase tracking-[0.3em]">{item.role}</p>
                                         </div>
                                     </div>
                                 </div>
@@ -152,7 +154,7 @@ const Testimonials = () => {
                         <div className="p-3 bg-white/5 rounded-2xl text-[#55A2C2] border border-white/10">
                             <Orbit size={24} className="animate-[spin_10s_linear_infinite]" />
                         </div>
-                        <p className="text-white/40 font-black uppercase text-xs tracking-[0.4em]">{t('testimonials.global_presence')}</p>
+                        <p className="text-white/40 font-black uppercase text-sm tracking-[0.4em]">{t('testimonials.global_presence')}</p>
                     </div>
 
                     <div className="flex items-center gap-8">
@@ -162,7 +164,7 @@ const Testimonials = () => {
                     </div>
 
                     <div className="flex items-center gap-4">
-                        <p className="text-white/40 font-black uppercase text-xs tracking-[0.4em]">{t('testimonials.euro_excellence')}</p>
+                        <p className="text-white/40 font-black uppercase text-sm tracking-[0.4em]">{t('testimonials.euro_excellence')}</p>
                         <div className="p-3 bg-white/5 rounded-2xl text-[#bce8ff] border border-white/10">
                             <UserCheck size={24} />
                         </div>

@@ -56,7 +56,7 @@ const Hedaer = () => {
                         <div className="absolute -bottom-1 -right-1 w-4 h-4 bg-orange-400 border-2 border-white rounded-full"></div>
                     </div>
                     <div className="flex flex-col">
-                        <span className="text-2xl font-black text-[#213C51] tracking-tighter leading-none">
+                        <span className="text-2xl font-black text-[#213C51]   leading-none">
                             EURO<span className="text-[#55A2C2]">RENT</span>
                         </span>
                         <span className="text-[10px] font-bold text-[#55A2C2] tracking-[0.2em] uppercase">Premium Stays</span>

@@ -36,7 +36,7 @@ const Rooms = () => {
                         initial={{ opacity: 0, scale: 0.95 }}
                         animate={{ opacity: 1, scale: 1 }}
                         transition={{ duration: 1.5, ease: "easeOut" }}
-                        className="text-6xl md:text-[10rem] font-black uppercase tracking-tighter mb-12"
+                        className="text-6xl md:text-[10rem] font-black uppercase   mb-12"
                     >
                         {t('rooms_page.hero.title')} <br />
                         <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#55A2C2] to-[#bce8ff] italic font-serif">{t('rooms_page.hero.title_italic')}</span>
@@ -70,8 +70,8 @@ const Rooms = () => {
                         className="space-y-16"
                     >
                         <div className="space-y-6">
-                            <h2 className="text-[#55A2C2] font-black text-xs uppercase tracking-[0.4em]">{t('rooms_page.philosophy.badge')}</h2>
-                            <h3 className="text-4xl md:text-7xl font-black uppercase leading-tight tracking-tighter">
+                            <h2 className="text-[#55A2C2] font-black text-sm uppercase tracking-[0.4em]">{t('rooms_page.philosophy.badge')}</h2>
+                            <h3 className="text-4xl md:text-7xl font-black uppercase     ">
                                 {t('rooms_page.philosophy.title')} <span className="text-[#213C51]/30 italic font-serif">{t('rooms_page.philosophy.title_italic')}</span>
                             </h3>
                             <p className="text-[#213C51]/60 text-lg md:text-xl leading-relaxed font-medium">
@@ -110,8 +110,8 @@ const Rooms = () => {
                         viewport={{ once: true }}
                         className="space-y-12"
                     >
-                        <h2 className="text-[#55A2C2] font-black text-xs uppercase tracking-[0.4em]">{t('rooms_page.experience.badge')}</h2>
-                        <h3 className="text-4xl md:text-8xl font-black uppercase leading-[0.9] tracking-tighter">
+                        <h2 className="text-[#55A2C2] font-black text-sm uppercase tracking-[0.4em]">{t('rooms_page.experience.badge')}</h2>
+                        <h3 className="text-4xl md:text-8xl font-black uppercase leading-[0.9]  ">
                             {t('rooms_page.experience.title')} <br />
                             <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#55A2C2] to-white italic font-serif">{t('rooms_page.experience.title_italic')}</span>
                         </h3>
@@ -128,7 +128,7 @@ const Rooms = () => {
                                 <div key={i} className="flex flex-col items-center gap-6 p-8 group">
                                     <div className="text-[#55A2C2] animate-pulse group-hover:scale-125 transition-transform">{item.icon}</div>
                                     <h5 className="font-black uppercase text-sm tracking-widest">{item.title}</h5>
-                                    <p className="text-white/20 text-xs font-bold leading-relaxed">{item.desc}</p>
+                                    <p className="text-white/20 text-sm font-bold leading-relaxed">{item.desc}</p>
                                 </div>
                             ))}
                         </div>
@@ -145,14 +145,14 @@ const Rooms = () => {
                         viewport={{ once: true }}
                     >
                         <Award size={60} className="text-[#55A2C2] mx-auto mb-10" />
-                        <h2 className="text-3xl md:text-6xl font-black uppercase mb-8 tracking-tighter">
+                        <h2 className="text-3xl   md:text-5xl font-black uppercase mb-8  ">
                             {t('rooms_page.invitation.title')} <span className="text-[#55A2C2] italic font-serif">{t('rooms_page.invitation.title_italic')}</span>
                         </h2>
                         <p className="text-[#213C51]/60 text-lg leading-relaxed font-medium mb-12">
                             {t('rooms_page.invitation.desc')}
                         </p>
                         <Link to="/contact">
-                            <button className="bg-[#213C51] text-white px-16 py-6 rounded-full font-black uppercase text-xs tracking-[0.5em] shadow-[0_30px_60px_rgba(33,60,81,0.2)] hover:bg-[#55A2C2] hover:scale-105 transition-all">
+                            <button className="bg-[#213C51] text-white px-16 py-6 rounded-full font-black uppercase text-sm tracking-[0.5em] shadow-[0_30px_60px_rgba(33,60,81,0.2)] hover:bg-[#55A2C2] hover:scale-105 transition-all">
                                 {t('rooms_page.invitation.button')}
                             </button>
                         </Link>

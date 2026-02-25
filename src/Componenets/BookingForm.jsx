@@ -25,7 +25,7 @@ const BookingForm = () => {
                         {/* Elite Tile 1: Communication */}
                         <div className="group relative bg-gradient-to-br from-white/10 to-transparent backdrop-blur-3xl p-8 rounded-[2.5rem] border border-white/10 hover:border-[#55A2C2]/40 transition-all duration-500 shadow-2xl overflow-hidden">
                             <div className="absolute top-4 right-6 px-3 py-1 bg-[#55A2C2]/20 rounded-full border border-[#55A2C2]/30">
-                                <span className="text-[10px] font-black text-[#55A2C2] uppercase tracking-tighter">Response &lt; 1hr</span>
+                                <span className="text-[10px] font-black text-[#55A2C2] uppercase  ">Response &lt; 1hr</span>
                             </div>
 
                             <div className="flex items-center gap-6 mb-6">
@@ -52,7 +52,7 @@ const BookingForm = () => {
                         <div className="group relative bg-gradient-to-br from-white/10 to-transparent backdrop-blur-3xl p-8 rounded-[2.5rem] border border-white/10 hover:border-[#55A2C2]/40 transition-all duration-500 shadow-2xl">
                             <div className="absolute top-4 right-6 flex items-center gap-2">
                                 <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse" />
-                                <span className="text-[10px] font-black text-white/40 uppercase tracking-tighter">Global Hub</span>
+                                <span className="text-[10px] font-black text-white/40 uppercase  ">Global Hub</span>
                             </div>
 
                             <div className="flex items-center gap-6 mb-6">
@@ -99,14 +99,14 @@ const BookingForm = () => {
                         transition={{ duration: 1 }}
                         className="order-1 lg:order-2"
                     >
-                        <h2 className="text-4xl md:text-6xl font-black text-white mb-12 uppercase tracking-tight">
+                        <h2 className="text-4xl   md:text-5xl font-black text-white mb-12 uppercase tracking-tight">
                             {t('booking_form.title')} <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#55A2C2] to-[#bce8ff] italic font-serif">{t('booking_form.title_italic')}</span>
                         </h2>
 
                         <form className="space-y-8">
                             <div className="grid md:grid-cols-2 gap-8">
                                 <div className="space-y-3">
-                                    <label className="text-xs font-black text-white/40 uppercase tracking-widest ml-1">{t('booking_form.labels.name')}</label>
+                                    <label className="text-sm font-black text-white/40 uppercase tracking-widest ml-1">{t('booking_form.labels.name')}</label>
                                     <div className="relative group">
                                         <input
                                             type="text"
@@ -117,7 +117,7 @@ const BookingForm = () => {
                                     </div>
                                 </div>
                                 <div className="space-y-3">
-                                    <label className="text-xs font-black text-white/40 uppercase tracking-widest ml-1">{t('booking_form.labels.email')}</label>
+                                    <label className="text-sm font-black text-white/40 uppercase tracking-widest ml-1">{t('booking_form.labels.email')}</label>
                                     <div className="relative group">
                                         <input
                                             type="email"
@@ -130,7 +130,7 @@ const BookingForm = () => {
                             </div>
 
                             <div className="space-y-3">
-                                <label className="text-xs font-black text-white/40 uppercase tracking-widest ml-1">{t('booking_form.labels.phone')}</label>
+                                <label className="text-sm font-black text-white/40 uppercase tracking-widest ml-1">{t('booking_form.labels.phone')}</label>
                                 <div className="relative group">
                                     <input
                                         type="tel"
@@ -142,7 +142,7 @@ const BookingForm = () => {
                             </div>
 
                             <div className="space-y-3">
-                                <label className="text-xs font-black text-white/40 uppercase tracking-widest ml-1">{t('booking_form.labels.message')}</label>
+                                <label className="text-sm font-black text-white/40 uppercase tracking-widest ml-1">{t('booking_form.labels.message')}</label>
                                 <textarea
                                     rows="5"
                                     placeholder={t('booking_form.placeholders.message')}

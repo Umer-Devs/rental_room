@@ -39,10 +39,10 @@ const FeaturedRooms = () => {
                         viewport={{ once: true }}
                         className="max-w-2xl"
                     >
-                        <div className="inline-flex items-center gap-2 px-4 py-2 mb-6 text-[10px] md:text-xs font-black tracking-[0.2em] text-[#55A2C2] uppercase bg-[#55A2C2]/10 rounded-full">
+                        <div className="inline-flex items-center gap-2 px-4 py-2 mb-6 text-[10px] md:text-sm font-black tracking-[0.2em] text-[#55A2C2] uppercase bg-[#55A2C2]/10 rounded-full">
                             {t('featured.badge')}
                         </div>
-                        <h2 className="text-4xl md:text-6xl font-black text-[#213C51] leading-tight uppercase">
+                        <h2 className="text-4xl   md:text-5xl font-black text-[#213C51]    uppercase">
                             {t('featured.title')} <br />
                             <span className="text-[#55A2C2] italic font-serif">{t('featured.title_italic')}</span>
                         </h2>
@@ -52,7 +52,7 @@ const FeaturedRooms = () => {
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
                         onClick={() => navigate('/rooms')}
-                        className="bg-[#213C51] text-white px-10 py-5 rounded-full font-black uppercase text-xs tracking-widest shadow-xl"
+                        className="bg-[#213C51] text-white px-10 py-5 rounded-full font-black uppercase text-sm tracking-widest shadow-xl"
                     >
                         {t('featured.view_all')}
                     </motion.button>
@@ -102,20 +102,20 @@ const FeaturedRooms = () => {
                                     <div className="flex items-center gap-6">
                                         <div className="flex items-center gap-2 text-gray-400">
                                             <Maximize2 size={16} />
-                                            <span className="text-xs font-bold">{room.stats.size}</span>
+                                            <span className="text-sm font-bold">{room.stats.size}</span>
                                         </div>
                                         <div className="flex items-center gap-2 text-gray-400">
                                             <Bed size={16} />
-                                            <span className="text-xs font-bold">{room.stats.beds}</span>
+                                            <span className="text-sm font-bold">{room.stats.beds}</span>
                                         </div>
                                         <div className="flex items-center gap-2 text-gray-400">
                                             <Bath size={16} />
-                                            <span className="text-xs font-bold">{room.stats.bath}</span>
+                                            <span className="text-sm font-bold">{room.stats.bath}</span>
                                         </div>
                                     </div>
                                     <div className="flex items-center gap-1">
                                         <Star size={14} className="text-yellow-400 fill-yellow-400" />
-                                        <span className="text-xs font-black text-[#213C51]">4.9</span>
+                                        <span className="text-sm font-black text-[#213C51]">4.9</span>
                                     </div>
                                 </div>
                             </div>

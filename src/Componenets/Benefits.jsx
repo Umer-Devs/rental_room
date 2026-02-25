@@ -41,10 +41,10 @@ const Benefits = () => {
                         viewport={{ once: true }}
                         transition={{ duration: 1 }}
                     >
-                        <div className="inline-flex items-center gap-2 px-4 py-2 mb-8 text-[10px] md:text-xs font-black tracking-[0.2em] text-[#213C51] uppercase bg-[#EDF1F8] rounded-full">
+                        <div className="inline-flex items-center gap-2 px-4 py-2 mb-8 text-[10px] md:text-sm font-black tracking-[0.2em] text-[#213C51] uppercase bg-[#EDF1F8] rounded-full">
                             {t('benefits.badge')}
                         </div>
-                        <h2 className="text-4xl md:text-6xl font-black text-[#213C51] leading-tight mb-10 uppercase">
+                        <h2 className="text-4xl   md:text-5xl font-black text-[#213C51]    mb-10 uppercase">
                             {t('benefits.title')} <br />
                             <span className="text-[#55A2C2] italic font-serif">{t('benefits.title_italic')}</span>
                         </h2>
@@ -53,7 +53,7 @@ const Benefits = () => {
                         </p>
 
                         <Link to="/contact">
-                            <button className="px-10 py-5 bg-[#55A2C2] text-white rounded-full font-black uppercase text-xs tracking-widest shadow-xl shadow-[#55A2C2]/20 hover:scale-105 transition-transform">
+                            <button className="px-10 py-5 bg-[#55A2C2] text-white rounded-full font-black uppercase text-sm tracking-widest shadow-xl shadow-[#55A2C2]/20 hover:scale-105 transition-transform">
                                 {t('benefits.button')}
                             </button>
                         </Link>

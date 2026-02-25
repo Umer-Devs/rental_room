@@ -54,12 +54,12 @@ const Hero = () => {
                         transition={{ delay: 0.5, duration: 1, ease: [0.22, 1, 0.36, 1] }}
                         className="mb-8 md:mb-10 lg:mb-14"
                     >
-                        <div className="inline-flex items-center gap-2 md:gap-3 px-6 py-2.5 mb-8 text-[9px] md:text-xs font-black tracking-[0.2em] text-white uppercase bg-white/10 backdrop-blur-md rounded-full border border-white/20">
+                        <div className="inline-flex items-center gap-2 md:gap-3 px-6 py-2.5 mb-8 text-[9px] md:text-sm font-black tracking-[0.2em] text-white uppercase bg-white/10 backdrop-blur-md rounded-full border border-white/20">
                             <ShieldCheck size={14} className="text-[#55A2C2]" /> {t('hero.badge')}
                         </div>
-                        <h1 className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-black text-white leading-[1.1] md:leading-tight mb-6 md:mb-8 uppercase drop-shadow-[0_10px_35px_rgba(0,0,0,0.6)]">
+                        <h1 className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl  font-black text-white leading-[1.1] md:   mb-6 md:mb-8 uppercase drop-shadow-[0_10px_35px_rgba(0,0,0,0.6)]">
                             {t('hero.title')} <br />
-                            <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#55A2C2] to-[#bce8ff] italic font-serif tracking-tighter">
+                            <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#55A2C2] to-[#bce8ff] italic font-serif ">
                                 {t('hero.title_italic')}
                             </span>
                         </h1>

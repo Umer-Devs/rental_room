@@ -42,7 +42,7 @@ const HowItWorks = () => {
                         initial={{ opacity: 0, y: 20 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
-                        className="inline-flex items-center gap-3 px-6 py-2.5 mb-8 text-[10px] md:text-xs font-black tracking-[0.25em] text-[#55A2C2] uppercase bg-white/5 backdrop-blur-xl rounded-full border border-white/10 shadow-xl"
+                        className="inline-flex items-center gap-3 px-6 py-2.5 mb-8 text-[10px] md:text-sm font-black tracking-[0.25em] text-[#55A2C2] uppercase bg-white/5 backdrop-blur-xl rounded-full border border-white/10 shadow-xl"
                     >
                         <Sparkles size={14} /> {t('how_it_works.badge')}
                     </motion.div>
@@ -51,7 +51,7 @@ const HowItWorks = () => {
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
                         transition={{ delay: 0.2 }}
-                        className="text-5xl md:text-7xl font-black text-white leading-tight uppercase"
+                        className="text-5xl md:text-7xl font-black text-white    uppercase"
                     >
                         {t('how_it_works.title')} <br />
                         <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#55A2C2] to-[#bce8ff] italic font-serif">{t('how_it_works.title_italic')}</span>

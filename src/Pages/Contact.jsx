@@ -28,7 +28,7 @@ const Contact = () => {
                     <motion.h1
                         initial={{ opacity: 0, y: 40 }}
                         animate={{ opacity: 1, y: 0 }}
-                        className="text-6xl md:text-9xl font-black uppercase tracking-tighter leading-[0.85] mb-8"
+                        className="text-6xl md:text-9xl font-black uppercase   leading-[0.85] mb-8"
                     >
                         {t('contact.hero.title')} <br />
                         <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#55A2C2] to-white italic font-serif">{t('contact.hero.title_italic')}</span>
@@ -81,7 +81,7 @@ const Contact = () => {
                                 <div className="w-20 h-20 bg-[#EDF1F8] rounded-3xl flex items-center justify-center text-[#55A2C2] mb-8 group-hover:bg-[#55A2C2] group-hover:text-white transition-all duration-500 shadow-xl shadow-[#55A2C2]/10">
                                     {tile.icon}
                                 </div>
-                                <h3 className="text-xs font-black uppercase tracking-[0.3em] text-[#55A2C2] mb-4">{tile.title}</h3>
+                                <h3 className="text-sm font-black uppercase tracking-[0.3em] text-[#55A2C2] mb-4">{tile.title}</h3>
                                 <p className="text-2xl font-black text-[#213C51] mb-2">{tile.value}</p>
                                 <span className="text-sm font-bold text-[#213C51]/30 uppercase tracking-widest">{tile.label}</span>
                             </motion.div>
@@ -93,7 +93,7 @@ const Contact = () => {
                             initial="hidden"
                             whileInView="visible"
                             variants={fadeIn}
-                            className="text-4xl md:text-6xl font-black uppercase tracking-tighter"
+                            className="text-4xl   md:text-5xl font-black uppercase  "
                         >
                             {t('contact.specific.title')} <span className="text-[#55A2C2] italic font-serif">{t('contact.specific.title_italic')}</span> {t('contact.specific.title_end')}
                         </motion.h2>
@@ -140,7 +140,7 @@ const Contact = () => {
                                 <textarea rows={4} placeholder={t('contact.form.message_placeholder')} className="w-full bg-white/5 border border-white/10 rounded-2xl px-6 py-5 text-white placeholder:text-white/20 outline-none focus:border-[#55A2C2] transition-colors resize-none" />
                             </div>
 
-                            <button className="w-full bg-[#55A2C2] text-white py-6 rounded-2xl font-black uppercase tracking-[0.5em] text-xs shadow-2xl shadow-[#55A2C2]/20 hover:bg-white hover:text-[#213C51] transition-all flex items-center justify-center gap-4 group">
+                            <button className="w-full bg-[#55A2C2] text-white py-6 rounded-2xl font-black uppercase tracking-[0.5em] text-sm shadow-2xl shadow-[#55A2C2]/20 hover:bg-white hover:text-[#213C51] transition-all flex items-center justify-center gap-4 group">
                                 <Send size={18} className="group-hover:translate-x-2 group-hover:-translate-y-2 transition-transform duration-500" />
                                 {t('contact.form.send')}
                             </button>
@@ -166,7 +166,7 @@ const Contact = () => {
                                     <li key={i} className="flex gap-6">
                                         <div className="shrink-0">{item.icon}</div>
                                         <div>
-                                            <h5 className="font-black uppercase text-xs tracking-widest">{item.title}</h5>
+                                            <h5 className="font-black uppercase text-sm tracking-widest">{item.title}</h5>
                                             <p className="text-[#213C51]/60 text-sm font-medium leading-relaxed">{item.desc}</p>
                                         </div>
                                     </li>

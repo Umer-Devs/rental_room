@@ -48,10 +48,10 @@ const PremiumServices = () => {
             <div className=" max-w-7xl mx-auto custom-padding relative z-10">
                 <div className="bg-white rounded-[4rem] p-12 md:p-24 shadow-[0_50px_100px_-20px_rgba(0,0,0,0.1)] border border-gray-100">
                     <div className="text-center mb-24">
-                        <div className="inline-flex items-center gap-2 px-4 py-2 mb-6 text-[10px] md:text-xs font-black tracking-[0.2em] text-[#55A2C2] uppercase bg-[#55A2C2]/5 rounded-full">
+                        <div className="inline-flex items-center gap-2 px-4 py-2 mb-6 text-[10px] md:text-sm font-black tracking-[0.2em] text-[#55A2C2] uppercase bg-[#55A2C2]/5 rounded-full">
                             {t('services.badge')}
                         </div>
-                        <h2 className="text-4xl md:text-6xl font-black text-[#213C51] leading-tight uppercase">
+                        <h2 className="text-4xl   md:text-5xl font-black text-[#213C51]    uppercase">
                             {t('services.title')} <br />
                             <span className="text-[#55A2C2] italic font-serif lowercase">{t('services.title_italic')}</span>
                         </h2>
@@ -81,7 +81,7 @@ const PremiumServices = () => {
                     <div className="mt-24 pt-16 border-t border-gray-100 text-center">
                         <p className="text-[#213C51] text-lg font-bold mb-8">{t('services.ready')}</p>
                         <Link to="/contact">
-                            <button className="px-12 py-6 bg-[#213C51] text-white rounded-full font-black uppercase text-xs tracking-[0.2em] shadow-2xl hover:bg-[#55A2C2] transition-colors duration-500">
+                            <button className="px-12 py-6 bg-[#213C51] text-white rounded-full font-black uppercase text-sm tracking-[0.2em] shadow-2xl hover:bg-[#55A2C2] transition-colors duration-500">
                                 {t('services.book_now')}
                             </button>
                         </Link>

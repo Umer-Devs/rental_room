@@ -36,7 +36,7 @@ const About = () => {
                     <motion.h1
                         initial={{ opacity: 0, y: 50 }}
                         animate={{ opacity: 1, y: 0 }}
-                        className="text-6xl md:text-9xl font-black uppercase tracking-tighter mb-8"
+                        className="text-6xl md:text-9xl font-black uppercase   mb-8"
                     >
                         {t('about_page.hero.title')} <br />
                         <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#55A2C2] to-white italic font-serif">{t('about_page.hero.title_italic')}</span>
@@ -70,8 +70,8 @@ const About = () => {
                             variants={fadeIn}
                             className="space-y-6"
                         >
-                            <span className="text-[#55A2C2] font-black tracking-[0.4em] uppercase text-xs">{t('about_page.heritage.badge')}</span>
-                            <h2 className="text-5xl md:text-7xl font-black uppercase tracking-tighter leading-none">
+                            <span className="text-[#55A2C2] font-black tracking-[0.4em] uppercase text-sm">{t('about_page.heritage.badge')}</span>
+                            <h2 className="text-5xl md:text-7xl font-black uppercase   leading-none">
                                 {t('about_page.heritage.title')} <br />
                                 <span className="text-[#55A2C2] italic font-serif">{t('about_page.heritage.title_italic')}</span>
                             </h2>
@@ -101,8 +101,8 @@ const About = () => {
             {/* Section II: Core Pillars (Floating Glass Blocks) */}
             <section className="bg-[#1e3447] custom-padding py-40 relative">
                 <div className="max-w-7xl mx-auto text-center mb-24">
-                    <h2 className="text-[#55A2C2] font-black tracking-[0.4em] uppercase text-xs mb-6">{t('about_page.pillars.badge')}</h2>
-                    <h3 className="text-4xl md:text-8xl font-black uppercase tracking-tighter">
+                    <h2 className="text-[#55A2C2] font-black tracking-[0.4em] uppercase text-sm mb-6">{t('about_page.pillars.badge')}</h2>
+                    <h3 className="text-4xl md:text-8xl font-black uppercase  ">
                         {t('about_page.pillars.title')} <span className="opacity-30 italic font-serif">{t('about_page.pillars.title_italic')}</span>
                     </h3>
                 </div>
@@ -167,8 +167,8 @@ const About = () => {
 
                     <div className="order-1 lg:order-2 space-y-10">
                         <motion.div initial="hidden" whileInView="visible" variants={fadeIn}>
-                            <span className="text-[#55A2C2] font-black tracking-[0.4em] uppercase text-xs">{t('about_page.team.badge')}</span>
-                            <h2 className="text-5xl md:text-7xl font-black uppercase tracking-tighter leading-none mt-6 mb-10 text-[#213C51]">
+                            <span className="text-[#55A2C2] font-black tracking-[0.4em] uppercase text-sm">{t('about_page.team.badge')}</span>
+                            <h2 className="text-5xl md:text-7xl font-black uppercase   leading-none mt-6 mb-10 text-[#213C51]">
                                 {t('about_page.team.title')} <br />
                                 <span className="text-[#55A2C2] italic font-serif">{t('about_page.team.title_italic')}</span>
                             </h2>
@@ -211,7 +211,7 @@ const About = () => {
                     className="relative z-10 max-w-4xl mx-auto"
                 >
                     <Sparkles className="text-[#55A2C2] mx-auto mb-10 w-20 h-20 animate-pulse" />
-                    <h2 className="text-4xl md:text-9xl font-black uppercase tracking-tighter mb-10 leading-[0.8]">
+                    <h2 className="text-4xl md:text-9xl font-black uppercase   mb-10 leading-[0.8]">
                         {t('about_page.mission.title')} <br />
                         <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#55A2C2] to-white italic font-serif">{t('about_page.mission.title_italic')}</span>
                     </h2>
@@ -222,7 +222,7 @@ const About = () => {
                         <motion.button
                             whileHover={{ scale: 1.05 }}
                             whileTap={{ scale: 0.95 }}
-                            className="bg-[#55A2C2] text-white px-16 py-7 rounded-full font-black uppercase tracking-[0.4em] text-xs shadow-2xl shadow-[#55A2C2]/20 hover:bg-white hover:text-[#213C51] transition-all"
+                            className="bg-[#55A2C2] text-white px-16 py-7 rounded-full font-black uppercase tracking-[0.4em] text-sm shadow-2xl shadow-[#55A2C2]/20 hover:bg-white hover:text-[#213C51] transition-all"
                         >
                             {t('about_page.mission.button')}
                         </motion.button>

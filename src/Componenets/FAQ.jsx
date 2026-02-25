@@ -13,10 +13,10 @@ const FAQ = () => {
         <section id="faq" className="py-32 bg-white">
             <div className="custom-padding max-w-6xl mx-auto">
                 <div className="text-center mb-24">
-                    <div className="inline-flex items-center gap-2 px-4 py-2 mb-6 text-[10px] md:text-xs font-black tracking-[0.2em] text-[#213C51] uppercase bg-[#EDF1F8] rounded-full">
+                    <div className="inline-flex items-center gap-2 px-4 py-2 mb-6 text-[10px] md:text-sm font-black tracking-[0.2em] text-[#213C51] uppercase bg-[#EDF1F8] rounded-full">
                         {t('faq.badge')}
                     </div>
-                    <h2 className="text-4xl md:text-6xl font-black text-[#213C51] leading-tight uppercase">
+                    <h2 className="text-4xl   md:text-5xl font-black text-[#213C51]    uppercase">
                         {t('faq.title')} <br />
                         <span className="text-[#55A2C2] italic font-serif">{t('faq.title_italic')}</span>
                     </h2>
