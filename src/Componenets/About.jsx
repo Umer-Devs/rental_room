@@ -1,7 +1,10 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
 
 const About = () => {
+    const { t } = useTranslation();
+
     return (
         <section id="about" className="py-32 bg-white overflow-hidden">
             <div className="custom-padding custom-padding">
@@ -14,11 +17,11 @@ const About = () => {
                         transition={{ duration: 1.2, ease: [0.22, 1, 0.36, 1] }}
                         className="relative"
                     >
-                        <div className="relative z-10 rounded-[4rem] overflow-hidden shadow-[0_50px_100px_-20px_rgba(0,0,0,0.15)] transform -rotate-3 hover:rotate-0 transition-transform duration-700">
+                        <div className="relative z-10 rounded-[4rem] overflow-hidden flex justify-end  transform transition-transform duration-700">
                             <img
-                                src="https://images.unsplash.com/photo-1589197331516-4d8498b5efbc?q=80&w=2070&auto=format&fit=crop"
+                                src="https://images.unsplash.com/photo-1572891086295-6c1c7c476549?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cm9vbSUyMGZvciUyMHJlbnR8ZW58MHx8MHx8fDA%3D"
                                 alt="Lisbon Portugal Living"
-                                className="w-full h-[600px] object-cover"
+                                className="w-full max-w-2xl object-cover"
                             />
                         </div>
                         {/* Decorative floating card */}
@@ -30,7 +33,7 @@ const About = () => {
                             className="absolute -bottom-10 -right-10 z-20 bg-[#213C51] text-white p-10 rounded-[3rem] shadow-2xl max-w-[280px]"
                         >
                             <p className="text-4xl font-black mb-2">10+</p>
-                            <p className="text-white/60 text-xs font-black uppercase tracking-widest">Years of Curating Perfect Stays in Portugal</p>
+                            <p className="text-white/60 text-xs font-black uppercase tracking-widest">{t('about_comp.stats.years')}</p>
                         </motion.div>
 
                         {/* Background Texture */}
@@ -45,30 +48,30 @@ const About = () => {
                         transition={{ duration: 1, delay: 0.2 }}
                     >
                         <div className="inline-flex items-center gap-2 px-4 py-2 mb-8 text-[10px] md:text-xs font-black tracking-[0.2em] text-[#213C51] uppercase bg-[#EDF1F8] rounded-full">
-                            Our Story
+                            {t('about_comp.badge')}
                         </div>
                         <h2 className="text-4xl md:text-6xl font-black text-[#213C51] leading-tight mb-10 uppercase">
-                            Room Rental <br />
-                            <span className="text-[#55A2C2] italic font-serif">Redefined.</span>
+                            {t('about_comp.title')} <br />
+                            <span className="text-[#55A2C2] italic font-serif">{t('about_comp.title_italic')}</span>
                         </h2>
                         <div className="space-y-8 text-gray-500 text-lg leading-relaxed">
                             <p>
-                                At <span className="text-[#213C51] font-bold">EuroRent Portugal</span>, we believe that your home is the foundation of your journey. Founded in the heart of Lisbon, our mission has always been to simplify the complexities of Portuguese room rentals.
+                                {t('about_comp.desc1')}
                             </p>
                             <p>
-                                We don't just list rooms; we curate experiences. Each property in our portfolio is meticulously verified for safety, luxury, and proximity to local culture, ensuring that you can focus on what truly matters—your growth and discovery in Portugal.
+                                {t('about_comp.desc2')}
                             </p>
                         </div>
 
                         <div className="mt-12 flex items-center gap-12">
                             <div>
                                 <p className="text-3xl font-black text-[#213C51]">500+</p>
-                                <p className="text-gray-400 text-[10px] font-black uppercase tracking-widest">Premium Properties</p>
+                                <p className="text-gray-400 text-[10px] font-black uppercase tracking-widest">{t('about_comp.stats.properties')}</p>
                             </div>
                             <div className="w-px h-10 bg-gray-200" />
                             <div>
                                 <p className="text-3xl font-black text-[#213C51]">24h</p>
-                                <p className="text-gray-400 text-[10px] font-black uppercase tracking-widest">Concierge Response</p>
+                                <p className="text-gray-400 text-[10px] font-black uppercase tracking-widest">{t('about_comp.stats.response')}</p>
                             </div>
                         </div>
                     </motion.div>

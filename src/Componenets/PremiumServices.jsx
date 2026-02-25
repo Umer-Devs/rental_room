@@ -1,41 +1,45 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Coffee, Wifi, Luggage, Key, UserCheck, PhoneCall } from 'lucide-react';
-
-const services = [
-    {
-        icon: <UserCheck size={32} />,
-        title: "Personal Concierge",
-        desc: "Dedicated support for all your needs from local tips to logistics."
-    },
-    {
-        icon: <Wifi size={32} />,
-        title: "Ultra-Fast Fiber",
-        desc: "Stay connected with high-speed internet in every premium room."
-    },
-    {
-        icon: <Coffee size={32} />,
-        title: "Daily Breakfast",
-        desc: "Optional gourmet breakfast delivered directly to your doorstep."
-    },
-    {
-        icon: <Luggage size={32} />,
-        title: "Storage Solutions",
-        desc: "Moving between cities? We provide secure luggage storage for free."
-    },
-    {
-        icon: <PhoneCall size={32} />,
-        title: "24/7 Assistance",
-        desc: "Never left alone. Emergency support available every single hour."
-    },
-    {
-        icon: <Key size={32} />,
-        title: "Smart Access",
-        desc: "Unlock your world with secure mobile-based digital key entry."
-    }
-];
+import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
 
 const PremiumServices = () => {
+    const { t } = useTranslation();
+
+    const services = [
+        {
+            icon: <UserCheck size={32} />,
+            title: t('services.items.concierge.title'),
+            desc: t('services.items.concierge.desc')
+        },
+        {
+            icon: <Wifi size={32} />,
+            title: t('services.items.wifi.title'),
+            desc: t('services.items.wifi.desc')
+        },
+        {
+            icon: <Coffee size={32} />,
+            title: t('services.items.breakfast.title'),
+            desc: t('services.items.breakfast.desc')
+        },
+        {
+            icon: <Luggage size={32} />,
+            title: t('services.items.luggage.title'),
+            desc: t('services.items.luggage.desc')
+        },
+        {
+            icon: <PhoneCall size={32} />,
+            title: t('services.items.assistance.title'),
+            desc: t('services.items.assistance.desc')
+        },
+        {
+            icon: <Key size={32} />,
+            title: t('services.items.access.title'),
+            desc: t('services.items.access.desc')
+        }
+    ];
+
     return (
         <section id="services" className="py-32 bg-[#F9FAFB] relative overflow-hidden">
             {/* Decorative Background Element */}
@@ -45,15 +49,15 @@ const PremiumServices = () => {
                 <div className="bg-white rounded-[4rem] p-12 md:p-24 shadow-[0_50px_100px_-20px_rgba(0,0,0,0.1)] border border-gray-100">
                     <div className="text-center mb-24">
                         <div className="inline-flex items-center gap-2 px-4 py-2 mb-6 text-[10px] md:text-xs font-black tracking-[0.2em] text-[#55A2C2] uppercase bg-[#55A2C2]/5 rounded-full">
-                            Luxury Amenities
+                            {t('services.badge')}
                         </div>
                         <h2 className="text-4xl md:text-6xl font-black text-[#213C51] leading-tight uppercase">
-                            Premium Services <br />
-                            <span className="text-[#55A2C2] italic font-serif lowercase">Just for you.</span>
+                            {t('services.title')} <br />
+                            <span className="text-[#55A2C2] italic font-serif lowercase">{t('services.title_italic')}</span>
                         </h2>
                     </div>
 
-                    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-12 lg:gap-16">
+                    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-12 lg:gap-16 " >
                         {services.map((service, index) => (
                             <motion.div
                                 key={index}
@@ -75,10 +79,12 @@ const PremiumServices = () => {
                     </div>
 
                     <div className="mt-24 pt-16 border-t border-gray-100 text-center">
-                        <p className="text-[#213C51] text-lg font-bold mb-8">Ready to experience Portugal living at its finest?</p>
-                        <button className="px-12 py-6 bg-[#213C51] text-white rounded-full font-black uppercase text-xs tracking-[0.2em] shadow-2xl hover:bg-[#55A2C2] transition-colors duration-500">
-                            Book Your Stay in Portugal Now
-                        </button>
+                        <p className="text-[#213C51] text-lg font-bold mb-8">{t('services.ready')}</p>
+                        <Link to="/contact">
+                            <button className="px-12 py-6 bg-[#213C51] text-white rounded-full font-black uppercase text-xs tracking-[0.2em] shadow-2xl hover:bg-[#55A2C2] transition-colors duration-500">
+                                {t('services.book_now')}
+                            </button>
+                        </Link>
                     </div>
                 </div>
             </div>

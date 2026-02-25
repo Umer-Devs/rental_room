@@ -1,31 +1,36 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { ShieldCheck, Zap, Globe, Heart } from 'lucide-react';
-
-const benefits = [
-    {
-        icon: <ShieldCheck size={32} />,
-        title: "Verified Housing",
-        desc: "Every room undergoes a rigorous 50-point inspection before listing."
-    },
-    {
-        icon: <Zap size={32} />,
-        title: "Instant Booking",
-        desc: "Secure your room in minutes with our elite high-speed booking engine."
-    },
-    {
-        icon: <Globe size={32} />,
-        title: "Prime Locations",
-        desc: "Strategic properties located within minutes of city landmarks."
-    },
-    {
-        icon: <Heart size={32} />,
-        title: "Student Support",
-        desc: "Dedicated 24/7 concierge for international student assistance."
-    }
-];
+import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
 
 const Benefits = () => {
+    const { t } = useTranslation();
+
+    const benefits = [
+        {
+            icon: <ShieldCheck size={32} />,
+            title: t('benefits.items.verified.title'),
+            desc: t('benefits.items.verified.desc')
+        },
+        {
+            icon: <Zap size={32} />,
+            title: t('benefits.items.verified.title'), // Fixed key in thought, but let's use the actual keys
+            title: t('benefits.items.instant.title'),
+            desc: t('benefits.items.instant.desc')
+        },
+        {
+            icon: <Globe size={32} />,
+            title: t('benefits.items.prime.title'),
+            desc: t('benefits.items.prime.desc')
+        },
+        {
+            icon: <Heart size={32} />,
+            title: t('benefits.items.support.title'),
+            desc: t('benefits.items.support.desc')
+        }
+    ];
+
     return (
         <section id="benefits" className="py-32 bg-white relative overflow-hidden">
             <div className="custom-padding custom-padding">
@@ -37,19 +42,21 @@ const Benefits = () => {
                         transition={{ duration: 1 }}
                     >
                         <div className="inline-flex items-center gap-2 px-4 py-2 mb-8 text-[10px] md:text-xs font-black tracking-[0.2em] text-[#213C51] uppercase bg-[#EDF1F8] rounded-full">
-                            Why EuroRent
+                            {t('benefits.badge')}
                         </div>
                         <h2 className="text-4xl md:text-6xl font-black text-[#213C51] leading-tight mb-10 uppercase">
-                            Luxury Living <br />
-                            <span className="text-[#55A2C2] italic font-serif">Made Simple.</span>
+                            {t('benefits.title')} <br />
+                            <span className="text-[#55A2C2] italic font-serif">{t('benefits.title_italic')}</span>
                         </h2>
                         <p className="text-gray-500 text-lg leading-relaxed mb-12 max-w-lg">
-                            We pride ourselves on providing a seamless experience that prioritizes your comfort, safety, and ultimate satisfaction across Portugal.
+                            {t('benefits.desc')}
                         </p>
 
-                        <button className="px-10 py-5 bg-[#55A2C2] text-white rounded-full font-black uppercase text-xs tracking-widest shadow-xl shadow-[#55A2C2]/20 hover:scale-105 transition-transform">
-                            Learn More About Safety
-                        </button>
+                        <Link to="/contact">
+                            <button className="px-10 py-5 bg-[#55A2C2] text-white rounded-full font-black uppercase text-xs tracking-widest shadow-xl shadow-[#55A2C2]/20 hover:scale-105 transition-transform">
+                                {t('benefits.button')}
+                            </button>
+                        </Link>
                     </motion.div>
 
                     <div className="grid sm:grid-cols-2 gap-6 md:gap-8">

@@ -1,91 +1,92 @@
 import React from 'react';
 import { Facebook, Twitter, Instagram, Linkedin, Mail, MapPin, Phone } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
-    return (
-        <footer className="bg-[#213C51] pt-32 pb-16 relative overflow-hidden">
-            {/* Background Accent */}
-            <div className="absolute bottom-0 right-0 w-[600px] h-[600px] bg-[#55A2C2]/5 blur-[150px] rounded-full translate-y-1/2 translate-x-1/2" />
+    const { t } = useTranslation();
 
-            <div className="custom-padding custom-padding relative z-10">
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-16 mb-24">
-                    {/* Brand Column */}
-                    <div className="space-y-8">
-                        <div>
-                            <h2 className="text-3xl font-black text-white uppercase tracking-tighter">
+    return (
+        <footer className="bg-[#213C51]  pt-8 relative overflow-hidden">
+            {/* Background Accent */}
+           
+
+            <div className="custom-padding relative z-10">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 lg:gap-24 mb-24">
+                    {/* Column 1: Brand & Socials */}
+                    <div className="space-y-10">
+                        <Link to="/" className="inline-block">
+                            <h2 className="text-4xl font-black text-white uppercase tracking-tighter">
                                 Euro<span className="text-[#55A2C2] italic font-serif lowercase">Rent.</span>
                             </h2>
-                        </div>
-                        <p className="text-white/40 text-sm leading-relaxed font-bold">
-                            Redefining Portuguese living for the modern explorer. Premium, verified, and community-driven room rentals.
+                        </Link>
+                        <p className="text-white/40 text-lg leading-relaxed font-bold max-w-sm">
+                            {t('footer.desc')}
                         </p>
                         <div className="flex gap-4">
                             {[Facebook, Twitter, Instagram, Linkedin].map((Icon, i) => (
-                                <a key={i} href="#" className="w-12 h-12 bg-white/5 border border-white/10 rounded-2xl flex items-center justify-center text-white/60 hover:text-[#55A2C2] hover:bg-white/10 transition-all duration-300">
-                                    <Icon size={20} />
+                                <a key={i} href="#" className="w-14 h-14 bg-white/5 border border-white/10 rounded-2xl flex items-center justify-center text-white/60 hover:text-[#55A2C2] hover:bg-white/10 hover:border-[#55A2C2]/30 transition-all duration-500 shadow-xl group">
+                                    <Icon size={22} className="group-hover:scale-110 transition-transform" />
                                 </a>
                             ))}
                         </div>
                     </div>
 
-                    {/* Quick Links */}
-                    <div>
-                        <h4 className="text-white font-black uppercase text-xs tracking-[0.2em] mb-10">Quick Explore</h4>
-                        <ul className="space-y-6">
-                            {['Rooms', 'About Us', 'Cities', 'Services', 'Pricing'].map(item => (
-                                <li key={item}>
-                                    <a href="#" className="text-white/40 hover:text-[#55A2C2] text-sm font-bold transition-colors">{item}</a>
-                                </li>
-                            ))}
-                        </ul>
+                    {/* Column 2: Combined Links */}
+                    <div className="grid  gap-8 lg:px-10">
+                        <div className="space-y-10">
+                            <h4 className="text-white font-black uppercase text-xs tracking-[0.3em]">{t('footer.quick_explore')}</h4>
+                            <ul className="space-y-6">
+                                {[
+                                    { name: t('footer.links.rooms'), path: '/rooms' },
+                                    { name: t('footer.links.about'), path: '/about' },
+                                    { name: t('footer.links.cities'), path: '/#cities' },
+                                    { name: t('footer.links.services'), path: '/#services' }
+                                ].map(item => (
+                                    <li key={item.name}>
+                                        <Link to={item.path} className="text-white/40 hover:text-[#55A2C2] text-sm font-bold transition-all hover:translate-x-2 inline-block">
+                                            {item.name}
+                                        </Link>
+                                    </li>
+                                ))}
+                            </ul>
+                        </div>
+                       
                     </div>
 
-                    {/* Support */}
-                    <div>
-                        <h4 className="text-white font-black uppercase text-xs tracking-[0.2em] mb-10">Support</h4>
-                        <ul className="space-y-6">
-                            {['Help Center', 'Safety & Security', 'Booking Guide', 'Terms of Service', 'Privacy Policy'].map(item => (
-                                <li key={item}>
-                                    <a href="#" className="text-white/40 hover:text-[#55A2C2] text-sm font-bold transition-colors">{item}</a>
-                                </li>
-                            ))}
-                        </ul>
-                    </div>
-
-                    {/* Contact Info */}
-                    <div>
-                        <h4 className="text-white font-black uppercase text-xs tracking-[0.2em] mb-10">Let's Connect</h4>
-                        <ul className="space-y-8">
-                            <li className="flex gap-4">
-                                <div className="text-[#55A2C2]"><MapPin size={20} /></div>
-                                <span className="text-white/40 text-sm font-bold leading-relaxed">
-                                    Av. da Liberdade 110,<br />1269-046 Lisbon, Portugal
-                                </span>
-                            </li>
-                            <li className="flex gap-4">
-                                <div className="text-[#55A2C2]"><Phone size={20} /></div>
-                                <span className="text-white/40 text-sm font-bold">+33 (0) 1 23 45 67 89</span>
-                            </li>
-                            <li className="flex gap-4">
-                                <div className="text-[#55A2C2]"><Mail size={20} /></div>
-                                <span className="text-white/40 text-sm font-bold">concierge@eurorent.com</span>
-                            </li>
-                        </ul>
+                    {/* Column 3: Newsletter Subscribe */}
+                    <div className="space-y-10">
+                        <h4 className="text-white font-black uppercase text-xs tracking-[0.3em]">{t('footer.subscribe.title')}</h4>
+                        <div className="space-y-6">
+                            <p className="text-white/40 text-sm font-bold leading-relaxed">
+                                {t('footer.subscribe.desc')}
+                            </p>
+                            <div className="relative group">
+                                <input
+                                    type="email"
+                                    placeholder={t('footer.subscribe.placeholder')}
+                                    className="w-full bg-white/5 border border-white/10 rounded-2xl px-6 py-5 text-white outline-none focus:border-[#55A2C2] transition-all font-bold placeholder:text-white/20"
+                                />
+                                <button className="absolute right-2 top-2 bottom-2 bg-[#55A2C2] text-white px-6 rounded-xl font-black uppercase text-[10px] tracking-widest hover:bg-[#4491b1] transition-colors shadow-lg shadow-[#55A2C2]/20 active:scale-95">
+                                    {t('footer.subscribe.button')}
+                                </button>
+                            </div>
+                            <div className="flex items-center gap-4 pt-4">
+                                <span className="text-white/20 text-[10px] font-black uppercase tracking-[0.2em]">{t('footer.lets_connect')}</span>
+                                <div className="h-px flex-1 bg-white/5" />
+                                <div className="flex gap-2 text-[#55A2C2] font-black text-[10px] uppercase">
+                                    <span>concierge@eurorent.pt</span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
-                <div className="pt-16 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-8">
-                    <p className="text-white/20 text-[10px] font-black uppercase tracking-[0.3em]">
-                        &copy; 2026 EuroRent International Group. All Rights Reserved.
-                    </p>
-                    <div className="flex gap-10">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Forbes_logo.svg" className="h-3 opacity-10 grayscale brightness-200" alt="Forbes" />
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/b/b5/The_New_York_Times_Logo.svg" className="h-3 opacity-10 grayscale brightness-200" alt="NYT" />
-                    </div>
-                </div>
+                
             </div>
         </footer>
     );
 };
+
 
 export default Footer;
