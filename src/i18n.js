@@ -23,7 +23,7 @@ const resources = {
                 },
                 "search": {
                     "destination": "Destination",
-                    "select_city": "Select City",
+                    "select_city": "Select Room",
                     "move_in": "Move In",
                     "guests": "Guests",
                     "lisbon": "Lisbon",
@@ -617,7 +617,7 @@ i18n
         resources,
         fallbackLng: 'en',
         interpolation: {
-            escapeValue: false // react already safes from xss
+            escapeValue: false
         }
     });
 

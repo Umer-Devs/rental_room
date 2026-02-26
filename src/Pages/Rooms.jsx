@@ -36,7 +36,7 @@ const Rooms = () => {
                         initial={{ opacity: 0, scale: 0.95 }}
                         animate={{ opacity: 1, scale: 1 }}
                         transition={{ duration: 1.5, ease: "easeOut" }}
-                        className="text-6xl md:text-[10rem] font-black uppercase   mb-12"
+                        className="text-5xl md:text-8xl font-black uppercase   mb-12"
                     >
                         {t('rooms_page.hero.title')} <br />
                         <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#55A2C2] to-[#bce8ff] italic font-serif">{t('rooms_page.hero.title_italic')}</span>
@@ -111,7 +111,7 @@ const Rooms = () => {
                         className="space-y-12"
                     >
                         <h2 className="text-[#55A2C2] font-black text-sm uppercase tracking-[0.4em]">{t('rooms_page.experience.badge')}</h2>
-                        <h3 className="text-4xl md:text-8xl font-black uppercase leading-[0.9]  ">
+                        <h3 className="text-4xl md:text-8xl font-black uppercase    ">
                             {t('rooms_page.experience.title')} <br />
                             <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#55A2C2] to-white italic font-serif">{t('rooms_page.experience.title_italic')}</span>
                         </h3>

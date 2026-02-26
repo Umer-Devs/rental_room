@@ -163,7 +163,7 @@ const Hedaer = () => {
                                         to={link.path}
                                         onClick={() => setIsOpen(false)}
                                         className={({ isActive }) =>
-                                            `flex items-center gap-5 p-5 rounded-3xl transition-all ${isActive ? 'bg-white text-white' : 'bg-white text-[#213C51]'}`
+                                            `flex items-center gap-5 p-5 rounded-3xl transition-all ${isActive ? 'bg-white text-black' : 'bg-white text-[#213C51]'}`
                                         }
                                     >
                                         <div className="w-12 h-12 bg-white rounded-2xl flex items-center justify-center shadow-sm text-[#55A2C2]">

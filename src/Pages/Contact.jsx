@@ -17,6 +17,8 @@ const Contact = () => {
     };
 
     return (
+      <>
+      {/* this is the start of the contact page of the page bottom */}
         <main className="min-h-screen text-white">
             {/* Section: The Discovery Hub Hero (Navy) */}
             <section className="relative h-screen flex items-center justify-center overflow-hidden custom-padding bg-[#213C51]">
@@ -197,9 +199,10 @@ const Contact = () => {
                     referrerPolicy="no-referrer-when-downgrade"
                 ></iframe>
             </div>
-
-            <Footer />
+            
+    <Footer />
         </main>
+      </>
     );
 };
 

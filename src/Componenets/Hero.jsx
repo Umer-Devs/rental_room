@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { ArrowRight, MapPin, Calendar, Users, ShieldCheck } from 'lucide-react';
+import { ArrowRight, MapPin, Calendar, Users, ShieldCheck, House } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 
@@ -76,14 +76,25 @@ const Hero = () => {
                     <div className="bg-white/15 backdrop-blur-[40px] p-2 md:p-3 rounded-[2rem] md:rounded-[3rem] border border-white/20 shadow-[0_20px_50px_rgba(0,0,0,0.3)] flex flex-col lg:flex-row items-stretch lg:items-center gap-2">
                         {/* Destination */}
                         <div className="flex-[1.5] flex items-center gap-4 px-5 md:px-8 py-4 md:py-5 lg:py-6 w-full border-b lg:border-b-0 lg:border-r border-white/10 transition-colors hover:bg-white/5 lg:rounded-l-[2rem]">
-                            <MapPin className="text-[#55A2C2] shrink-0" size={24} />
+                            <House className="text-[#55A2C2] shrink-0" size={24} />
                             <div className="text-left flex-1 min-w-0">
                                 <p className="text-[9px] md:text-[10px] font-black text-[#55A2C2] uppercase tracking-[0.2em] mb-1">{t('hero.search.destination')}</p>
-                                <input
-                                    type="text"
-                                    placeholder={t('hero.search.select_city')}
-                                    className="bg-transparent border-none outline-none text-white font-bold text-lg lg:text-xl p-0 w-full placeholder:text-white/40 truncate"
-                                />
+                               <div className={`
+    bg-transparent 
+    border-none 
+    outline-none 
+    text-white font-bold text-lg lg:text-xl 
+    p-0 w-full 
+    min-h-[1.5em] leading-tight   // ← input jaisi height
+    truncate 
+    flex items-center
+    cursor-pointer
+    
+  `}
+  
+>
+  {t('hero.search.select_city')}
+</div>
                             </div>
                         </div>
 
@@ -107,8 +118,7 @@ const Hero = () => {
                         </Link>
                     </div>
                 </motion.div>
-
-                {/* Trust Factor */}
+                
                 <motion.div
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}

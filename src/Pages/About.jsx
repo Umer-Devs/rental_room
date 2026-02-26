@@ -17,6 +17,7 @@ const About = () => {
     };
 
     return (
+        // {this is start of the about page of the page bottom}
         <main className="bg-[#213C51] text-white min-h-screen">
             {/* Unique Hero: The Visionary Arc */}
             <section className="relative h-screen flex items-center justify-center overflow-hidden custom-padding">
@@ -36,7 +37,7 @@ const About = () => {
                     <motion.h1
                         initial={{ opacity: 0, y: 50 }}
                         animate={{ opacity: 1, y: 0 }}
-                        className="text-6xl md:text-9xl font-black uppercase   mb-8"
+                        className="text-5xl md:text-8xl font-black uppercase   mb-8"
                     >
                         {t('about_page.hero.title')} <br />
                         <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#55A2C2] to-white italic font-serif">{t('about_page.hero.title_italic')}</span>
@@ -90,7 +91,7 @@ const About = () => {
                             <div className="absolute inset-0 bg-blue-900/10 mix-blend-multiply" />
                         </div>
                         {/* Status Float Badge */}
-                        <div className="absolute -bottom-10 -left-10 bg-[#213C51] p-10 rounded-[3rem] shadow-2xl text-white">
+                        <div className="hidden md:block absolute -bottom-10 -left-10 bg-[#213C51] p-10 rounded-[3rem] shadow-2xl text-white">
                             <span className="text-4xl font-black text-[#55A2C2]">10+</span>
                             <p className="text-[10px] uppercase tracking-widest font-bold opacity-50">{t('about_page.heritage.stat_label')}</p>
                         </div>
@@ -211,7 +212,7 @@ const About = () => {
                     className="relative z-10 max-w-4xl mx-auto"
                 >
                     <Sparkles className="text-[#55A2C2] mx-auto mb-10 w-20 h-20 animate-pulse" />
-                    <h2 className="text-4xl md:text-9xl font-black uppercase   mb-10 leading-[0.8]">
+                    <h2 className="text-4xl md:text-7xl font-black uppercase   mb-10 leading-[0.8]">
                         {t('about_page.mission.title')} <br />
                         <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#55A2C2] to-white italic font-serif">{t('about_page.mission.title_italic')}</span>
                     </h2>
@@ -229,7 +230,7 @@ const About = () => {
                     </Link>
                 </motion.div>
             </section>
-
+           {/* {this is the end of the about page}              */}
             <Footer />
         </main>
     );

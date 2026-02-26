@@ -30,7 +30,7 @@ const About = () => {
                             whileInView={{ y: 0, opacity: 1 }}
                             viewport={{ once: true }}
                             transition={{ delay: 0.5, duration: 0.8 }}
-                            className="absolute -bottom-10 -right-10 z-20 bg-[#213C51] text-white p-10 rounded-[3rem] shadow-2xl max-w-[280px]"
+                            className=" hidden md:block absolute -bottom-10 -right-10 z-20 bg-[#213C51] text-white p-10 rounded-[3rem] shadow-2xl max-w-[280px]"
                         >
                             <p className="text-4xl font-black mb-2">10+</p>
                             <p className="text-white/60 text-sm font-black uppercase tracking-widest">{t('about_comp.stats.years')}</p>
