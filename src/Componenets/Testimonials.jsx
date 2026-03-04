@@ -4,6 +4,8 @@ import { Quote, Star, UserCheck, Sparkles, Orbit } from 'lucide-react';
 
 import { useTranslation } from 'react-i18next';
 
+import { Home18, Home19 } from '../assets';
+
 const Testimonials = () => {
     const { t } = useTranslation();
 
@@ -52,8 +54,8 @@ const Testimonials = () => {
         <>
             <section id="testimonials" className="py-40 bg-[#213C51] relative overflow-hidden">
                 {/* hidden column */}
-                <div className="hidden md:block absolute top-0 right-0 w-[800px] h-[800px] bg-[#55A2C2]/5 blur-[200px] rounded-full -translate-y-1/2 translate-x-1/2 pointer-events-none" />
-                <div className="hidden md:block absolute bottom-0 left-0 w-[600px] h-[600px] bg-[#bce8ff]/5 blur-[180px] rounded-full translate-y-1/2 -translate-x-1/2 pointer-events-none" />
+                <div className="hidden md:block absolute top-0 right-0 w-[800px] h-[800px] bg-cover bg-center opacity-5 blur-[10px] rounded-full -translate-y-1/2 translate-x-1/2 pointer-events-none" style={{ backgroundImage: `url(${Home18})` }} />
+                <div className="hidden md:block absolute bottom-0 left-0 w-[600px] h-[600px] bg-cover bg-center opacity-5 blur-[10px] rounded-full translate-y-1/2 -translate-x-1/2 pointer-events-none" style={{ backgroundImage: `url(${Home19})` }} />
 
                 <div className="custom-padding relative z-10">
                     <div className="text-center mb-32">

@@ -8,6 +8,8 @@ import { Footer } from '../Componenets';
 import { useNavigate, Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 
+import { Home12, Home17, Home18, Home19 } from '../assets';
+
 const Rooms = () => {
     const { t } = useTranslation();
 
@@ -20,7 +22,7 @@ const Rooms = () => {
         <main className="min-h-screen">
             {/* Cinematic Typography Hero (Navy) */}
             <section className="bg-[#213C51] text-white custom-padding pt-40 pb-20 relative overflow-hidden">
-                <div className="absolute top-0 right-0 w-[800px] h-[800px] bg-[#55A2C2]/5 blur-[200px] rounded-full pointer-events-none" />
+                <div className="absolute top-0 right-0 w-full h-full bg-cover bg-center opacity-10 pointer-events-none" style={{ backgroundImage: `url(${Home17})` }} />
 
                 <div className="max-w-6xl mx-auto text-center">
                     <motion.div
@@ -126,13 +128,115 @@ const Rooms = () => {
                                 { icon: <Sparkles />, title: t('rooms_page.experience.items.housekeeping.title'), desc: t('rooms_page.experience.items.housekeeping.desc') }
                             ].map((item, i) => (
                                 <div key={i} className="flex flex-col items-center gap-6 p-8 group">
-                                    <div className="text-[#55A2C2] animate-pulse group-hover:scale-125 transition-transform">{item.icon}</div>
+                                    <div className="text-[#55A2C2] animate-pulse group-hover:scale-125 transition-transform w-16 h-16">{item.icon}</div>
                                     <h5 className="font-black uppercase text-sm tracking-widest">{item.title}</h5>
                                     <p className="text-white/20 text-sm font-bold leading-relaxed">{item.desc}</p>
                                 </div>
                             ))}
                         </div>
                     </motion.div>
+                </div>
+            </section>
+
+            {/* High-End Signature Suite Section (Split Layout) */}
+            <section className="bg-[#f2f6f9] py-32 md:py-48 overflow-hidden">
+                <div className="max-w-7xl mx-auto">
+                    <div className="grid md:grid-cols-2 gap-16 md:gap-32 items-center">
+                        {/* Visual Column */}
+                        <motion.div
+                            initial={{ opacity: 0, x: -50 }}
+                            whileInView={{ opacity: 1, x: 0 }}
+                            transition={{ duration: 1.2, ease: [0.22, 1, 0.36, 1] }}
+                            viewport={{ once: true }}
+                            className="relative"
+                        >
+                            <div className="relative rounded-[4rem] overflow-hidden aspect-[4/5] shadow-2xl">
+                                <motion.img
+                                    whileHover={{ scale: 1.05 }}
+                                    transition={{ duration: 1.5 }}
+                                    src={Home12}
+                                    alt="Master Suite"
+                                    className="w-full h-full max-w-xl object-cover"
+                                />
+                                <div className="absolute inset-0 bg-gradient-to-t from-[#213C51]/40 to-transparent pointer-events-none" />
+                            </div>
+
+                            {/* Floating Stats Badge */}
+                            <motion.div
+                                initial={{ opacity: 0, scale: 0.8, y: 20 }}
+                                whileInView={{ opacity: 1, scale: 1, y: 0 }}
+                                transition={{ delay: 0.5, duration: 0.8 }}
+                                viewport={{ once: true }}
+                                className="absolute -bottom-8 -right-8 bg-white p-8 rounded-[2rem] shadow-xl border border-gray-100 hidden md:block"
+                            >
+                                <div className="flex items-center gap-4">
+                                    <div className="w-12 h-12 rounded-full bg-[#55A2C2]/10 flex items-center justify-center text-[#55A2C2]">
+                                        <Sparkles size={24} />
+                                    </div>
+                                    <div>
+                                        <p className="text-[10px] font-black uppercase tracking-widest text-[#55A2C2]">Property Alpha</p>
+                                        <p className="text-xl font-black text-[#213C51]">Master Room</p>
+                                    </div>
+                                </div>
+                            </motion.div>
+                        </motion.div>
+
+                        {/* Content Column */}
+                        <motion.div
+                            initial={{ opacity: 0, x: 50 }}
+                            whileInView={{ opacity: 1, x: 0 }}
+                            transition={{ duration: 1.2, ease: [0.22, 1, 0.36, 1] }}
+                            viewport={{ once: true }}
+                            className="space-y-12"
+                        >
+                            <div className="space-y-6">
+                                <motion.span
+                                    className="inline-block px-4 py-1.5 rounded-full bg-[#55A2C2]/10 text-[#55A2C2] text-[10px] font-black uppercase tracking-[0.3em] border border-[#55A2C2]/20"
+                                >
+                                    {t('rooms_page.signature_suite.badge')}
+                                </motion.span>
+                                <h2 className="text-4xl md:text-7xl font-black uppercase leading-tight text-[#213C51]">
+                                    {t('rooms_page.signature_suite.title')} <br />
+                                    <span className="italic font-serif text-[#55A2C2]">{t('rooms_page.signature_suite.title_italic')}</span>
+                                </h2>
+                                <p className="text-[#213C51]/70 text-lg md:text-xl leading-relaxed font-medium">
+                                    {t('rooms_page.signature_suite.desc')}
+                                </p>
+                            </div>
+
+                            <div className="space-y-6 pt-4">
+                                {t('rooms_page.signature_suite.features', { returnObjects: true }).map((feature, idx) => (
+                                    <motion.div
+                                        key={idx}
+                                        initial={{ opacity: 0, y: 10 }}
+                                        whileInView={{ opacity: 1, y: 0 }}
+                                        transition={{ delay: 0.6 + (idx * 0.1) }}
+                                        viewport={{ once: true }}
+                                        className="flex items-center gap-4 text-[#213C51]"
+                                    >
+                                        <div className="w-6 h-6 rounded-full bg-[#55A2C2]/20 flex items-center justify-center">
+                                            <div className="w-1.5 h-1.5 rounded-full bg-[#55A2C2]" />
+                                        </div>
+                                        <span className="text-sm font-bold uppercase tracking-widest">{feature}</span>
+                                    </motion.div>
+                                ))}
+                            </div>
+
+                            <Link to="/contact">
+                                <motion.button
+                                    whileHover={{ scale: 1.05 }}
+                                    whileTap={{ scale: 0.95 }}
+                                    className="group flex items-center gap-6 text-[#213C51] font-black uppercase text-xs tracking-[0.4em] pt-8"
+                                    onClick={() => navigate('/contact')}
+                                >
+                                    <span>Request Viewing</span>
+                                    <div className="w-12 h-12 rounded-full border border-[#213C51]/20 flex items-center justify-center group-hover:bg-[#213C51] group-hover:text-white transition-all">
+                                        <Sparkles size={16} />
+                                    </div>
+                                </motion.button>
+                            </Link>
+                        </motion.div>
+                    </div>
                 </div>
             </section>
 

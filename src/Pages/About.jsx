@@ -8,6 +8,8 @@ import { Footer } from '../Componenets';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 
+import { Home13, Home14, Home15, Home16 ,Home5, Home6} from '../assets';
+
 const About = () => {
     const { t } = useTranslation();
 
@@ -21,7 +23,7 @@ const About = () => {
         <main className="bg-[#213C51] text-white min-h-screen">
             {/* Unique Hero: The Visionary Arc */}
             <section className="relative h-screen flex items-center justify-center overflow-hidden custom-padding">
-                <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=2069&auto=format&fit=crop')] bg-cover bg-center opacity-20 scale-105" />
+                <div className="absolute inset-0 bg-cover bg-center opacity-20 scale-105" style={{ backgroundImage: `url(${Home13})` }} />
                 <div className="absolute inset-0 bg-gradient-to-b from-[#213C51] via-transparent to-[#213C51]" />
 
                 <div className="relative z-10 text-center max-w-5xl">
@@ -87,7 +89,7 @@ const About = () => {
 
                     <div className="flex-1 relative">
                         <div className="relative rounded-[4rem] overflow-hidden shadow-2xl">
-                            <img src="https://images.unsplash.com/photo-1569406829354-eb0cc9e653e8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cG9ydHVnYWx8ZW58MHx8MHx8fDA%3D" alt="Heritage" className="w-full aspect-square object-cover" />
+                            <img src={Home14} alt="Despacho Heritage" className="w-full aspect-square object-cover" />
                             <div className="absolute inset-0 bg-blue-900/10 mix-blend-multiply" />
                         </div>
                         {/* Status Float Badge */}
@@ -156,12 +158,12 @@ const About = () => {
                     <div className="order-2 lg:order-1 relative">
                         <div className="grid grid-cols-2 gap-6">
                             <div className="space-y-6 pt-20">
-                                <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=1976&auto=format&fit=crop" className="rounded-[4rem] aspect-[3/4] object-cover shadow-2xl" alt="Team 1" />
-                                <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=1974&auto=format&fit=crop" className="rounded-[4rem] aspect-square object-cover shadow-2xl" alt="Team 2" />
+                                <img src={Home15} className="rounded-[4rem] aspect-[3/4] object-cover shadow-2xl" alt="Team 1" />
+                                <img src={Home16} className="rounded-[4rem] aspect-square object-cover shadow-2xl" alt="Team 2" />
                             </div>
                             <div className="space-y-6">
-                                <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=1974&auto=format&fit=crop" className="rounded-[4rem] aspect-square object-cover shadow-2xl" alt="Team 3" />
-                                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1974&auto=format&fit=crop" className="rounded-[4rem] aspect-[3/4] object-cover shadow-2xl" alt="Team 4" />
+                                <img src={Home5} className="rounded-[4rem] aspect-square object-cover shadow-2xl" alt="Team 3" />
+                                <img src={Home6} className="rounded-[4rem] aspect-[3/4] object-cover shadow-2xl" alt="Team 4" />
                             </div>
                         </div>
                     </div>
@@ -230,7 +232,7 @@ const About = () => {
                     </Link>
                 </motion.div>
             </section>
-           {/* {this is the end of the about page}              */}
+            {/* {this is the end of the about page}              */}
             <Footer />
         </main>
     );

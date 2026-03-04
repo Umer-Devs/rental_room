@@ -4,23 +4,25 @@ import { Star, MapPin, Maximize2, Bed, Bath, ArrowUpRight } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 
+import { Home5, Home6, Home7 } from '../assets';
+
 const rooms = [
     {
         id: 1,
         key: "studio",
-        image: "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?q=80&w=2070&auto=format&fit=crop",
+        image: Home5,
         stats: { size: "32m²", beds: 1, bath: 1 }
     },
     {
         id: 2,
         key: "loft",
-        image: "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?q=80&w=2070&auto=format&fit=crop",
+        image: Home6,
         stats: { size: "40m²", beds: 1, bath: 1 }
     },
     {
         id: 3,
         key: "suite",
-        image: "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?q=80&w=2080&auto=format&fit=crop",
+        image: Home7,
         stats: { size: "35m²", beds: 1, bath: 1 }
     }
 ];

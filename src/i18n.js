@@ -8,92 +8,92 @@ const resources = {
         translation: {
             "nav": {
                 "home": "Home",
-                "rooms": "Rooms",
-                "about": "About Us",
+                "rooms": "Our Rooms",
+                "about": "Our Story",
                 "contact": "Contact",
-                "find_stay": "Find Your Stay"
+                "find_stay": "Book Your Room"
             },
             "hero": {
-                "badge": "Europe Premium Rentals",
+                "badge": "Despacho Exclusive Residency",
                 "title": "DISCOVER YOUR",
-                "title_italic": "ELITE HOME.",
-                "subtitle": "Curated residencies across Portugal's most iconic destinations. Designed for the global visionary.",
+                "title_italic": "PRIVATE SANCTUARY.",
+                "subtitle": "Discover ultimate comfort in our boutique property. A single destination, designed for the visionary.",
                 "trust": {
-                    "satisfied": "Satisfied Residents"
+                    "satisfied": "Happy Residents"
                 },
                 "search": {
-                    "destination": "Destination",
-                    "select_city": "Select Room",
-                    "move_in": "Move In",
-                    "guests": "Guests",
-                    "lisbon": "Lisbon",
-                    "porto": "Porto",
-                    "braga": "Braga"
+                    "destination": "Room Type",
+                    "select_city": "Select Your Room",
+                    "move_in": "Check In",
+                    "guests": "Residents",
+                    "lisbon": "Master Suite",
+                    "porto": "Garden Loft",
+                    "braga": "Heritage Studio"
                 }
             },
             "featured": {
-                "badge": "Curated Selection",
+                "badge": "Our Curated Spaces",
                 "title": "Featured",
-                "title_italic": "Living Spaces.",
-                "view_all": "View All Listings",
+                "title_italic": "Living Rooms.",
+                "view_all": "View All Rooms",
                 "mo": "mo",
                 "rooms_data": {
-                    "studio": { "title": "Alfama View Studio", "location": "Lisbon, Portugal", "tags": ["Premium", "Near Metro"] },
-                    "loft": { "title": "Ribeira River Loft", "location": "Porto, Portugal", "tags": ["Historic", "Riverside"] },
-                    "suite": { "title": "Braga Heritage Suite", "location": "Braga, Portugal", "tags": ["Quiet", "Academic"] }
+                    "studio": { "title": "Azure Heritage Suite", "location": "Despacho Main Wing", "tags": ["Premium", "Panoramic View"] },
+                    "loft": { "title": "Golden Garden Loft", "location": "Despacho West Wing", "tags": ["Quiet", "Private Deck"] },
+                    "suite": { "title": "Elite Master Chamber", "location": "Despacho Penthouse", "tags": ["Ultra-Luxury", "Marble Bath"] }
                 }
             },
             "services": {
-                "badge": "Luxury Amenities",
+                "badge": "Boutique Amenities",
                 "title": "Premium Services",
-                "title_italic": "Just for you.",
-                "ready": "Ready to experience Portugal living at its finest?",
-                "book_now": "Book Your Stay in Portugal Now",
+                "title_italic": "Tailored for you.",
+                "ready": "Ready to experience Despacho living at its finest?",
+                "book_now": "Book Your Stay at Despacho Now",
                 "items": {
-                    "concierge": { "title": "Personal Concierge", "desc": "Dedicated support for all your needs from local tips to logistics." },
-                    "wifi": { "title": "Ultra-Fast Fiber", "desc": "Stay connected with high-speed internet in every premium room." },
-                    "breakfast": { "title": "Daily Breakfast", "desc": "Optional gourmet breakfast delivered directly to your doorstep." },
-                    "luggage": { "title": "Storage Solutions", "desc": "Moving between cities? We provide secure luggage storage for free." },
-                    "assistance": { "title": "24/7 Assistance", "desc": "Never left alone. Emergency support available every single hour." },
-                    "access": { "title": "Smart Access", "desc": "Unlock your world with secure mobile-based digital key entry." }
+                    "concierge": { "title": "House Manager", "desc": "Dedicated on-site support for all your needs from local tips to logistics." },
+                    "wifi": { "title": "Gigabit Fiber", "desc": "Stay connected with ultra-high-speed internet in every room." },
+                    "breakfast": { "title": "Chef's Breakfast", "desc": "Daily gourmet breakfast served in our communal dining hall." },
+                    "luggage": { "title": "Valet Service", "desc": "We handle your arrival and departure with professional care." },
+                    "assistance": { "title": "24/7 Security", "desc": "Your safety is paramount. On-site security available every hour." },
+                    "access": { "title": "Digital Key", "desc": "Unlock your room and the main gate with secure mobile access." }
                 }
             },
             "how_it_works": {
-                "badge": "The Elite Journey",
+                "badge": "The Despacho Journey",
                 "title": "Your Road To",
-                "title_italic": "Ultimate Comfort.",
+                "title_italic": "Ultimate Peace.",
                 "steps": {
-                    "step1": { "badge": "AI-Curated", "title": "Explore Premium Listings", "desc": "Discover hand-picked, luxury accommodations across Portugal. Our AI-driven engine matches your elite preferences with precision." },
-                    "step2": { "badge": "Instant Verification", "title": "Secure Digital Booking", "desc": "Skip the bureaucracy. Submit your identity and secure your stay through our exclusive, high-end verification console." },
-                    "step3": { "badge": "Concierge Entry", "title": "Seamless Move-In", "desc": "Receive your digital keys and welcome package. Step into your new home within 24 hours of approval." }
+                    "step1": { "badge": "Virtual Tour", "title": "Choose Your Perfect Room", "desc": "Explore our hand-picked collection of rooms within the Despacho estate. Each space is designed for maximum comfort and style." },
+                    "step2": { "badge": "Fast Check", "title": "Secure Your Residency", "desc": "Submit your request. We prioritize long-term residents who value community and excellence." },
+                    "step3": { "badge": "Welcome Home", "title": "Seamless Move-In", "desc": "Receive your digital credentials and move into your new sanctuary within 24 hours of approval." }
                 }
             },
             "testimonials": {
-                "badge": "Verified Testimonials",
+                "badge": "Resident Stories",
                 "title": "THE",
-                "title_italic": "ELITE",
+                "title_italic": "LIFESTYLE",
                 "title_sub": "CHOICE.",
-                "global_presence": "Global Presence",
-                "euro_excellence": "European Excellence",
+                "global_presence": "Despacho Life",
+                "euro_excellence": "Portuguese Heritage",
                 "items": {
-                    "liza": { "name": "Liza Duarte", "role": "Student, Lisbon", "text": "Finding a room in Lisbon was stressing me out until I found EuroRent. The verification process gave me peace of mind, and the support was exceptional." },
-                    "diego": { "name": "Diego Silva", "role": "Scholar, Porto", "text": "Luxury is an understatement. My studio in Ribeira is everything I dreamed of. EuroRent truly redefines living for international students in Portugal." },
-                    "ana": { "name": "Ana Martins", "role": "Researcher, Coimbra", "text": "Seamless booking, elite properties, and transparent pricing. I've moved between Lisbon and Coimbra with EuroRent effortlessly." },
-                    "ricardo": { "name": "Ricardo Costa", "role": "Architect, Braga", "text": "The selection of properties is unparalleled. It's rare to find such high-fidelity listings that actually match the real-world experience." },
-                    "sofia": { "name": "Sofia Gomes", "role": "Erasmus, Algarve", "text": "Coming to Portugal for Erasmus was scary, but EuroRent made my housing search the easiest part of my whole move. 10/10 service!" }
+                    "liza": { "name": "Liza Duarte", "role": "Resident, Suite 1", "text": "Living at Despacho has been a dream. The property is stunning, and the sense of community among residents is something truly special." },
+                    "diego": { "name": "Diego Silva", "role": "Resident, Loft A", "text": "Luxury in every detail. My loft at Despacho is my sanctuary. The House Manager ensures everything is perfect every single day." },
+                    "ana": { "name": "Ana Martins", "role": "Resident, Studio 4", "text": "The most seamless rental experience I've ever had. Despacho isn't just a place to stay; it's a home that inspires." },
+                    "ricardo": { "name": "Ricardo Costa", "role": "Resident, Suite 2", "text": "The architectural beauty of this property is unmatched. It's rare to find a place that balances heritage and modern luxury so well." },
+                    "sofia": { "name": "Sofia Gomes", "role": "Resident, Room 5", "text": "Moving into Despacho was the best decision I made. The level of service and the quality of the room are beyond 10/10." }
                 }
             },
             "cities": {
-                "badge": "Portugal Destinations",
-                "title": "Explore Portugal's",
-                "title_italic": "Most Iconic Spots.",
-                "explore": "Explore Stays",
-                "rooms_count": "Rooms",
+                "badge": "Property Highlights",
+                "title": "Explore Our",
+                "title_italic": "Exclusive Spaces.",
+                "explore": "View Details",
+                "rooms_count": "Details",
                 "types": {
-                    "capital": "Capital Living",
-                    "riverside": "Riverside Charm",
-                    "heritage": "Heritage & Art",
-                    "sun": "Sun & Relax"
+                    "capital": "Social Spaces",
+                    "riverside": "Wellness Area",
+                    "heritage": "Garden Sanctuary",
+                    "sun": "Private Deck"
                 }
             },
             "faq": {
@@ -101,207 +101,218 @@ const resources = {
                 "title": "Common",
                 "title_italic": "Questions.",
                 "items": [
-                    { "q": "How do I verify my student status?", "a": "You can upload your university acceptance letter or student ID directly through our booking portal. Verification usually takes less than 12 hours." },
-                    { "q": "Is there a minimum stay requirement?", "a": "Most of our premium stays have a minimum requirement of 3 months to ensure a stable and high-quality community environment." },
-                    { "q": "What is included in the monthly price?", "a": "The price is all-inclusive: utility bills, high-speed fiber internet, weekly professional cleaning, and 24/7 concierge support." },
-                    { "q": "Can I move between different Portugal cities?", "a": "Yes! Our 'PortugalPass' program allows you to move between our properties in different cities with a simple 30-day notice." }
+                    { "q": "How do I secure a room at Despacho?", "a": "Simply fill out our inquiry form. Our House Manager will contact you for a private viewing and identity verification within 12 hours." },
+                    { "q": "Are utilities included in the rent?", "a": "Yes, all our rooms are all-inclusive. This covers water, electricity, high-speed fiber, and weekly professional cleaning." },
+                    { "q": "What is the minimum lease term?", "a": "To maintain our community standards, we typically require a minimum stay of 6 months." },
+                    { "q": "Can I visit the property before booking?", "a": "Absolutely. We encourage private viewings. You can also request a 4K virtual walkthrough with our manager." }
                 ]
             },
             "footer": {
-                "desc": "Redefining Portuguese living for the modern explorer. Premium, verified, and community-driven room rentals.",
-                "quick_explore": "Quick Explore",
-                "support": "Support",
+                "desc": "Redefining boutique living at Despacho. A single, elite property offering a community-driven room rental experience.",
+                "quick_explore": "Quick Links",
+                "support": "Concierge",
                 "lets_connect": "Let's Connect",
-                "rights": "All Rights Reserved.",
+                "rights": "All Rights Reserved. © 2026 Despacho.",
                 "subscribe": {
-                    "title": "Stay Updated",
-                    "desc": "Join our elite newsletter for exclusive property releases and Portugal living guides.",
+                    "title": "Inside Despacho",
+                    "desc": "Join our newsletter for updates on available rooms and community events.",
                     "placeholder": "Enter your email",
-                    "button": "Subscribe"
+                    "button": "Join"
                 },
                 "links": {
-                    "rooms": "Rooms", "about": "About Us", "cities": "Cities", "services": "Services", "pricing": "Pricing",
-                    "help": "Help Center", "safety": "Safety & Security", "guide": "Booking Guide", "terms": "Terms of Service", "privacy": "Privacy Policy"
+                    "rooms": "Our Rooms", "about": "Our Story", "cities": "Our Spaces", "services": "Services", "pricing": "Rates",
+                    "help": "Resident Portal", "safety": "House Rules", "guide": "Stay Guide", "terms": "Terms", "privacy": "Privacy"
                 }
             },
             "benefits": {
-                "badge": "Why EuroRent",
-                "title": "Luxury Living",
-                "title_italic": "Made Simple.",
-                "desc": "We pride ourselves on providing a seamless experience that prioritizes your comfort, safety, and ultimate satisfaction across Portugal.",
-                "button": "Learn More About Safety",
+                "badge": "Why Despacho",
+                "title": "Boutique Living",
+                "title_italic": "Perfected.",
+                "desc": "We pride ourselves on providing a bespoke experience that prioritizes your privacy, safety, and ultimate comfort within our walls.",
+                "button": "House Safety Standards",
                 "items": {
-                    "verified": { "title": "Verified Housing", "desc": "Every room undergoes a rigorous 50-point inspection before listing." },
-                    "instant": { "title": "Instant Booking", "desc": "Secure your room in minutes with our elite high-speed booking engine." },
-                    "prime": { "title": "Prime Locations", "desc": "Strategic properties located within minutes of city landmarks." },
-                    "support": { "title": "Student Support", "desc": "Dedicated 24/7 concierge for international student assistance." }
+                    "verified": { "title": "Bespoke Rooms", "desc": "Every room is uniquely designed and maintained to the highest luxury standards." },
+                    "instant": { "title": "Seamless Stay", "desc": "Experience a frictionless move-in process managed by our dedicated team." },
+                    "prime": { "title": "Iconic Property", "desc": "A historic estate updated with modern amenities in a prime location." },
+                    "support": { "title": "House Manager", "desc": "Personalized 24/7 assistance for all residents of the property." }
                 }
             },
             "booking_form": {
-                "title": "Say",
-                "title_italic": "hello!",
+                "title": "Join our",
+                "title_italic": "community.",
                 "labels": {
                     "name": "Your Name",
                     "email": "Your Email",
                     "phone": "Phone Number",
-                    "message": "Message"
+                    "message": "Preferences"
                 },
                 "placeholders": {
-                    "name": "Enter your name here...",
-                    "email": "Enter your email here...",
-                    "phone": "Enter your phone number here...",
-                    "message": "Enter your message"
+                    "name": "Enter your name...",
+                    "email": "Enter your email...",
+                    "phone": "Enter your phone...",
+                    "message": "Tell us about your ideal stay..."
                 },
-                "button": "Send Your Message",
+                "button": "Apply for Residency",
                 "info": {
-                    "direct": "Direct Channel",
-                    "connect": "Connect with us",
-                    "visit": "Visit Our HQ",
+                    "direct": "Property Manager",
+                    "connect": "Get in touch",
+                    "visit": "Our Location",
                     "residents": "Residents",
-                    "rating": "Rating",
-                    "support": "24/7 Global Support Available"
+                    "rating": "Score",
+                    "support": "Personalized Property Support"
                 }
             },
             "about_comp": {
-                "badge": "Our Story",
-                "title": "Room Rental",
-                "title_italic": "Redefined.",
-                "desc1": "At EuroRent Portugal, we believe that your home is the foundation of your journey. Founded in the heart of Lisbon, our mission has always been to simplify the complexities of Portuguese room rentals.",
-                "desc2": "We don't just list rooms; we curate experiences. Each property in our portfolio is meticulously verified for safety, luxury, and proximity to local culture, ensuring that you can focus on what truly matters—your growth and discovery in Portugal.",
+                "badge": "Our Heritage",
+                "title": "Despacho",
+                "title_italic": "Legacy.",
+                "desc1": "Despacho was founded on the belief that a home is more than a room; it's a sanctuary for growth. Our historic property stands as a testament to the fusion of heritage and modern vision.",
+                "desc2": "We don't just rent rooms; we host a community of visionaries. Every inch of Despacho is curated for those who seek excellence in their daily living and find inspiration in their surroundings.",
                 "stats": {
-                    "years": "Years of Curating Perfect Stays in Portugal",
-                    "properties": "Premium Properties",
-                    "response": "Concierge Response"
+                    "years": "Years of Hosting Exceptional Residents",
+                    "properties": "Signature Rooms",
+                    "response": "Manager Response"
                 }
             },
             "contact": {
                 "hero": {
-                    "title": "CONNECT WITH",
-                    "title_italic": "EXCELLENCE.",
-                    "subtitle": "Our dedicated consultants are standing by to guide your journey into the world's most exclusive residencies."
+                    "title": "DISCOVER",
+                    "title_italic": "DESPACHO.",
+                    "subtitle": "Our House Manager is ready to welcome you to the world's most exclusive boutique residency."
                 },
                 "tiles": {
-                    "phone": { "title": "Direct Line", "label": "24/7 Elite Support" },
-                    "email": { "title": "Digital Inquiry", "label": "Average Response: 15m" },
-                    "office": { "title": "Privé Office", "label": "By Appointment Only" }
+                    "phone": { "title": "Manager Call", "label": "Direct House Line" },
+                    "email": { "title": "Digital Query", "label": "Response: Under 1h" },
+                    "office": { "title": "The Property", "label": "Private Entry Only" }
                 },
                 "specific": {
-                    "title": "HAVE A",
-                    "title_italic": "SPECIFIC",
-                    "title_end": "REQUEST?",
-                    "desc": "Whether you're looking for a corporate relocation or a private sanctuary, our team is equipped to handle the most complex requirements."
+                    "title": "A UNIQUE",
+                    "title_italic": "REQUEST",
+                    "title_end": "?",
+                    "desc": "Whether you need specific room modifications or long-term arrival arrangements, we are here to accommodate your vision."
                 },
                 "form": {
-                    "title": "Request a Consultation",
-                    "subtitle": "Your privacy is our priority. A consultant will reach out via your preferred method.",
+                    "title": "Inquire About Residency",
+                    "subtitle": "Your application is private. Our manager will contact you to discuss your move-in.",
                     "name": "Full Name",
                     "email": "Email Address",
                     "interest": {
-                        "label": "Interested In",
-                        "options": ["Bespoke Penthouse", "Executive Suite", "Artisan Studio", "Corporate Housing"]
+                        "label": "Interested Room",
+                        "options": ["Azure Suite", "Garden Loft", "Heritage Studio", "The Master Chamber"]
                     },
                     "message": "Message",
-                    "message_placeholder": "Describe your perfect residency...",
-                    "send": "Send Private Inquiry"
+                    "message_placeholder": "Tell us about your stay requirements...",
+                    "send": "Send Inquiry"
                 },
                 "commitment": {
                     "title": "THE",
-                    "title_sub": "COMMITMENT.",
+                    "title_sub": "CARE.",
                     "items": {
-                        "response": { "title": "Guaranteed Response", "desc": "Consultants respond within 2 hours during business sets." },
-                        "privacy": { "title": "Privacy First", "desc": "Your data is encrypted and never shared with third parties." },
-                        "virtual": { "title": "Virtual Viewings", "desc": "Request a guided 4K walkthrough via encrypted video link." }
+                        "response": { "title": "Direct Contact", "desc": "Our manager responds personally to every inquiry." },
+                        "privacy": { "title": "Resident Privacy", "desc": "Discretion and privacy are the cornerstones of Despacho." },
+                        "virtual": { "title": "Virtual Walkthrough", "desc": "Request a guided 4K video tour of your future room." }
                     }
                 }
             },
             "rooms_page": {
                 "hero": {
-                    "badge": "The Elite Residency",
-                    "title": "LIVING",
-                    "title_italic": "REDEFINED.",
-                    "quote": "A collection of bespoke living spaces where heritage meets modern luxury. We don't just provide rooms; we curate experiences for the world's most discerning residents."
+                    "badge": "Despacho Rooms",
+                    "title": "YOUR",
+                    "title_italic": "SANCTUARY.",
+                    "quote": "A curated collection of bespoke living spaces within a single, historic estate. We offer an unparalleled residency experience for the discerning traveler."
                 },
                 "philosophy": {
-                    "badge": "Section I: The Philosophy",
-                    "title": "BEYOND THE",
-                    "title_italic": "ORDINARY.",
-                    "desc": "At EuroRent, our philosophy is rooted in the belief that your environment shapes your future. Every residence in our exclusive Portugal portfolio is hand-selected not just for its architectural beauty, but for its spirit and soul. We focus on natural light, premium materials, and intentional design to create a sanctuary for growth and inspiration.",
+                    "badge": "Section I: The Vision",
+                    "title": "BEYOND A",
+                    "title_italic": "ROOM.",
+                    "desc": "At Despacho, we believe your environment determines your focus. Our entire property is a meticulously designed ecosystem. From the natural light filtering through original skylights to the premium artisanal furniture, every room is a sanctuary for growth.",
                     "blue_standard": {
-                        "title": "The Blue Standard",
-                        "desc": "Our properties are evaluated against a 200-point integrity check. From the acoustics of the living room to the quality of the marble in the suite, every detail is scrutinized to ensure it meets the EuroRent signature standard."
+                        "title": "The Despacho Standard",
+                        "desc": "Our rooms aren't just checked; they are curated. Every fabric, sound-dampening panel, and light fixture is selected to meet our signature standard of quality and peace."
                     },
                     "bespoke": {
-                        "title": "Bespoke Curation",
-                        "desc": "We do not offer mass-market inventory. Each room is a unique masterpiece, furnished with custom-designed pieces and world-class technology, reflecting the pinnacle of Portuguese craftsmanship."
+                        "title": "Artisanal Living",
+                        "desc": "We reject the mass-market. Each room at Despacho is a unique masterpiece, featuring custom-made pieces that honor the legacy of our property while embracing the future."
                     }
                 },
                 "experience": {
-                    "badge": "Section II: The Experience",
+                    "badge": "Section II: The House",
                     "title": "A SERVICE THAT",
-                    "title_italic": "NEVER SLEEPS.",
-                    "quote": "Living with us means entering a world of effortless luxury. Our dedicated concierge team handles the complexities of relocation, so you can focus on making your mark on history.",
+                    "title_italic": "INSPIRE.",
+                    "quote": "Living at Despacho means total peace of mind. Our team manages the house so you can manage your future.",
                     "items": {
-                        "concierge": { "title": "24/7 Concierge", "desc": "Private assistants available for any request, from travel to home maintenance." },
-                        "security": { "title": "Secured Access", "desc": "State-of-the-art security systems and private entry protocols for all residences." },
-                        "housekeeping": { "title": "Elite Housekeeping", "desc": "Professional cleaning and linens management, scheduled to your lifestyle." }
+                        "concierge": { "title": "On-site Manager", "desc": "A dedicated host available for your every need, from maintenance to local discovery." },
+                        "security": { "title": "Private Entry", "desc": "State-of-the-art security and absolute privacy for all our residents." },
+                        "housekeeping": { "title": "Signature Cleaning", "desc": "Detail-oriented housekeeping services scheduled to your specific preference." }
                     }
                 },
                 "invitation": {
                     "title": "JOIN THE",
-                    "title_italic": "INNER CIRCLE.",
-                    "desc": "Entry into our private portfolio is by inquiry only. We invite you to connect with our consultants and discover a residence that perfectly aligns with your journey.",
-                    "button": "Request Private View"
+                    "title_italic": "RESIDENCY.",
+                    "desc": "Entry into the Despacho community is by inquiry only. Connect with us to discover your perfect room.",
+                    "button": "Apply to Join"
+                },
+                "signature_suite": {
+                    "badge": "Section III: Signature Space",
+                    "title": "THE MASTER",
+                    "title_italic": "EXPERIENCE.",
+                    "desc": "A harmonious blend of architectural heritage and avant-garde luxury. The Master Suite at Despacho is not just a room; it's a statement of achievement and refined taste.",
+                    "features": [
+                        "Panoramic Garden Views",
+                        "Hand-Crafted Italian Marble",
+                        "Private Library & Studio"
+                    ]
                 }
             },
             "about_page": {
                 "hero": {
-                    "title": "THE FUTURE OF",
-                    "title_italic": "RESIDENCY.",
-                    "est": "EST. 2026 • PORTUGAL GLOBAL HUB"
+                    "title": "OUR HOUSE,",
+                    "title_italic": "YOUR STORY.",
+                    "est": "EST. 2026 • THE DESPACHO ESTATE"
                 },
                 "heritage": {
-                    "badge": "Since Our Inception",
-                    "title": "CRAFTING",
-                    "title_italic": "LEGACIES.",
-                    "desc": "EuroRent was born from a singular vision: to bridge the gap between high-end hospitality and long-term residency. We realized that for the global elite, a \"room\" is more than just four walls—it is a launchpad for innovation and a sanctuary for restoration.",
-                    "quote": "We don't just find you a space; we find you a home that understands your ambition.",
-                    "stat_label": "Prime Cities"
+                    "badge": "Our Story",
+                    "title": "CURATING",
+                    "title_italic": "COMFORT.",
+                    "desc": "Despacho was born from the desire to create a sanctuary where heritage and high-end living converge. We transformed this historic property into a boutique residency for those who value both history and innovation.",
+                    "quote": "We didn't just build rooms; we built a launchpad for the ambitious.",
+                    "stat_label": "Signature Rooms"
                 },
                 "pillars": {
-                    "badge": "Our Core Pillars",
-                    "title": "WHAT WE",
-                    "title_italic": "STAND FOR.",
+                    "badge": "Our House Pillars",
+                    "title": "WHAT",
+                    "title_italic": "DEFINES US.",
                     "items": {
                         "precision": {
-                            "title": "Precision",
-                            "desc": "Every residence is evaluated with scientific rigor to ensure peak performance.",
-                            "stat": "200+ Point Check"
+                            "title": "Design",
+                            "desc": "Every room is a scientific study in comfort and ergonomic luxury.",
+                            "stat": "Hand-Picked"
                         },
                         "transparency": {
-                            "title": "Transparency",
-                            "desc": "No hidden fees. No surprises. Just clear, elite-level service agreements.",
+                            "title": "Integrity",
+                            "desc": "Simple, all-inclusive terms. No surprises, just excellence in residency.",
                             "stat": "100% Verified"
                         },
                         "humanity": {
-                            "title": "Humanity",
-                            "desc": "We prioritize the resident's mental and physical well-being above all else.",
-                            "stat": "Global Care"
+                            "title": "Community",
+                            "desc": "We prioritize the resident's well-being and social inspiration.",
+                            "stat": "Curated Care"
                         }
                     }
                 },
                 "team": {
-                    "badge": "Our Leadership",
-                    "title": "THE BRAINS",
-                    "title_italic": "BEHIND IT.",
-                    "desc": "Our team comprises award-winning architects, hospitality veterans, and real estate visionaries. We are united by a common goal: to rewrite the rules of modern living.",
-                    "excellence": { "title": "Curated Excellence", "desc": "Winner of Portugal Real Estate 2025" },
-                    "passion": { "title": "Passion Driven", "desc": "Deeply committed to resident success." }
+                    "badge": "The Team",
+                    "title": "THE HANDS",
+                    "title_italic": "ON HOUSE.",
+                    "desc": "Our team is a small, dedicated group of hospitality experts and property historians committed to your experience.",
+                    "excellence": { "title": "House Heritage", "desc": "Custodians of exceptional living." },
+                    "passion": { "title": "Resident Success", "desc": "Committed to your comfort every day." }
                 },
                 "mission": {
-                    "title": "ONE VISION,",
-                    "title_italic": "INFINITE STAYS.",
+                    "title": "ONE HOUSE,",
+                    "title_italic": "YOUR HOME.",
                     "quote": "Our mission is to build a world where anyone can feel at home, anywhere, with zero compromise on luxury.",
-                    "button": "Learn More About Us"
+                    "button": "Discover Despacho"
                 }
             }
         }
@@ -310,92 +321,92 @@ const resources = {
         translation: {
             "nav": {
                 "home": "Início",
-                "rooms": "Quartos",
-                "about": "Sobre Nós",
+                "rooms": "Os Nossos Quartos",
+                "about": "A Nossa História",
                 "contact": "Contacto",
-                "find_stay": "Encontre a sua estadia"
+                "find_stay": "Reserve o seu Quarto"
             },
             "hero": {
-                "badge": "Alugueres Premium na Europa",
+                "badge": "Residência Exclusiva Despacho",
                 "title": "DESCUBRA A SUA",
-                "title_italic": "CASA DE ELITE.",
-                "subtitle": "Residências selecionadas nos destinos mais icónicos de Portugal. Projetadas para o visionário global.",
+                "title_italic": "SANTUÁRIO PRIVADO.",
+                "subtitle": "Descubra o conforto supremo na nossa propriedade boutique. Um destino único, projetado para o visionário.",
                 "trust": {
-                    "satisfied": "Residentes Satisfeitos"
+                    "satisfied": "Residentes Felizes"
                 },
                 "search": {
-                    "destination": "Destino",
-                    "select_city": "Selecionar Cidade",
+                    "destination": "Tipo de Quarto",
+                    "select_city": "Selecione o seu Quarto",
                     "move_in": "Entrada",
-                    "guests": "Hóspedes",
-                    "lisbon": "Lisboa",
-                    "porto": "Porto",
-                    "braga": "Braga"
+                    "guests": "Residentes",
+                    "lisbon": "Master Suite",
+                    "porto": "Garden Loft",
+                    "braga": "Heritage Studio"
                 }
             },
             "featured": {
-                "badge": "Seleção Curada",
+                "badge": "Os Nossos Espaços Curados",
                 "title": "Destaque",
-                "title_italic": "Espaços de Vida.",
-                "view_all": "Ver Todas as Listas",
+                "title_italic": "Quartos de Assinatura.",
+                "view_all": "Ver Todos os Quartos",
                 "mo": "mês",
                 "rooms_data": {
-                    "studio": { "title": "Estúdio com Vista Alfama", "location": "Lisboa, Portugal", "tags": ["Premium", "Perto do Metro"] },
-                    "loft": { "title": "Loft Ribeira Rio", "location": "Porto, Portugal", "tags": ["Histórico", "Beira-rio"] },
-                    "suite": { "title": "Suite Heritage Braga", "location": "Braga, Portugal", "tags": ["Sossego", "Académico"] }
+                    "studio": { "title": "Azure Heritage Suite", "location": "Ala Principal Despacho", "tags": ["Premium", "Vista Panorâmica"] },
+                    "loft": { "title": "Golden Garden Loft", "location": "Ala Oeste Despacho", "tags": ["Sossego", "Deck Privado"] },
+                    "suite": { "title": "Elite Master Chamber", "location": "Penthouse Despacho", "tags": ["Ultra-Luxo", "Banheira em Mármore"] }
                 }
             },
             "services": {
-                "badge": "Comodidades de Luxo",
+                "badge": "Comodidades Boutique",
                 "title": "Serviços Premium",
-                "title_italic": "Só para si.",
-                "ready": "Pronto para experimentar o melhor de Portugal?",
-                "book_now": "Reserve a sua estadia em Portugal agora",
+                "title_italic": "Feito para si.",
+                "ready": "Pronto para experimentar a vida no Despacho no seu melhor?",
+                "book_now": "Reserve a sua estadia no Despacho agora",
                 "items": {
-                    "concierge": { "title": "Concierge Pessoal", "desc": "Suporte dedicado para todas as suas necessidades, desde dicas locais a logística." },
-                    "wifi": { "title": "Fibra Ultra-Rápida", "desc": "Mantenha-se ligado com internet de alta velocidade em todos os quartos premium." },
-                    "breakfast": { "title": "Pequeno-almoço Diário", "desc": "Pequeno-almoço gourmet opcional entregue diretamente à sua porta." },
-                    "luggage": { "title": "Soluções de Armazenamento", "desc": "A mudar-se entre cidades? Oferecemos armazenamento seguro de bagagem gratuitamente." },
-                    "assistance": { "title": "Assistência 24/7", "desc": "Nunca fique sozinho. Suporte de emergência disponível a cada hora." },
-                    "access": { "title": "Acesso Inteligente", "desc": "Abra o seu mundo com entrada segura por chave digital via telemóvel." }
+                    "concierge": { "title": "Gestor da Casa", "desc": "Suporte dedicado no local para todas as suas necessidades, desde dicas locais a logística." },
+                    "wifi": { "title": "Fibra Gigabit", "desc": "Mantenha-se ligado com internet de ultra-alta velocidade em todos os quartos." },
+                    "breakfast": { "title": "Pequeno-almoço do Chef", "desc": "Pequeno-almoço gourmet diário servido no nosso salão de jantar comum." },
+                    "luggage": { "title": "Serviço de Valet", "desc": "Tratamos da sua chegada e partida com cuidado profissional." },
+                    "assistance": { "title": "Segurança 24/7", "desc": "A sua segurança é primordial. Segurança no local disponível a cada hora." },
+                    "access": { "title": "Chave Digital", "desc": "Abra o seu quarto e o portão principal com acesso seguro via telemóvel." }
                 }
             },
             "how_it_works": {
-                "badge": "A Jornada de Elite",
+                "badge": "A Jornada Despacho",
                 "title": "O Seu Caminho Para o",
-                "title_italic": "Conforto Supremo.",
+                "title_italic": "Paz Suprema.",
                 "steps": {
-                    "step1": { "badge": "Curadoria por IA", "title": "Explore Anúncios Premium", "desc": "Descubra alojamentos de luxo selecionados a dedo em Portugal. O nosso motor movido por IA faz corresponder as suas preferências de elite com precisão." },
-                    "step2": { "badge": "Verificação Instantânea", "title": "Reserva Digital Segura", "desc": "Pule a burocracia. Envie a sua identificação e garanta a sua estadia através da nossa exclusiva consola de verificação de alto nível." },
-                    "step3": { "badge": "Entrada Concierge", "title": "Entrada Sem Complicações", "desc": "Receba as suas chaves digitais e o pacote de boas-vindas. Entre na sua nova casa em menos de 24 horas após a aprovação." }
+                    "step1": { "badge": "Visita Virtual", "title": "Escolha o seu Quarto Perfeito", "desc": "Explore a nossa coleção de quartos dentro da propriedade Despacho. Cada espaço é projetado para o máximo conforto e estilo." },
+                    "step2": { "badge": "Verificação Rápida", "title": "Garanta a sua Residência", "desc": "Envie o seu pedido. Priorizamos residentes de longa duração que valorizam a comunidade e a excelência." },
+                    "step3": { "badge": "Bem-vindo a Casa", "title": "Entrada Sem Complicações", "desc": "Receba as suas credenciais digitais e entre no seu novo santuário em menos de 24 horas após a aprovação." }
                 }
             },
             "testimonials": {
-                "badge": "Testemunhos Verificados",
+                "badge": "Histórias de Residentes",
                 "title": "A",
-                "title_italic": "ESCOLHA",
+                "title_italic": "ESTILO DE VIDA",
                 "title_sub": "DE ELITE.",
-                "global_presence": "Presença Global",
-                "euro_excellence": "Excelência Europeia",
+                "global_presence": "Vida no Despacho",
+                "euro_excellence": "Herança Portuguesa",
                 "items": {
-                    "liza": { "name": "Liza Duarte", "role": "Estudante, Lisboa", "text": "Encontrar um quarto em Lisboa estava a deixar-me stressada até encontrar a EuroRent. O processo de verificação deu-me paz de espírito e o suporte foi excecional." },
-                    "diego": { "name": "Diego Silva", "role": "Bolseiro, Porto", "text": "Luxo é um eufemismo. O meu estúdio na Ribeira é tudo o que sonhei. A EuroRent redefine verdadeiramente o conceito de habitação para estudantes internacionais em Portugal." },
-                    "ana": { "name": "Ana Martins", "role": "Investigadora, Coimbra", "text": "Reserva simples, propriedades de elite e preços transparentes. Mudei-me entre Lisboa e Coimbra com a EuroRent sem qualquer esforço." },
-                    "ricardo": { "name": "Ricardo Costa", "role": "Arquiteto, Braga", "text": "A seleção de propriedades é inigualável. É raro encontrar anúncios de tão alta fidelidade que correspondam realmente à experiência do mundo real." },
-                    "sofia": { "name": "Sofia Gomes", "role": "Erasmus, Algarve", "text": "Vir para Portugal para o Erasmus era assustador, mas a EuroRent tornou a procura de casa a parte mais fácil de toda a minha mudança. Serviço 10/10!" }
+                    "liza": { "name": "Liza Duarte", "role": "Residente, Suite 1", "text": "Viver no Despacho tem sido um sonho. A propriedade é deslumbrante e o sentido de comunidade entre os residentes é algo verdadeiramente especial." },
+                    "diego": { "name": "Diego Silva", "role": "Residente, Loft A", "text": "Luxo em cada detalhe. O meu loft no Despacho é o meu santuário. O Gestor da Casa garante que tudo esteja perfeito todos os dias." },
+                    "ana": { "name": "Ana Martins", "role": "Residente, Estúdio 4", "text": "A experiência de aluguer mais simples que já tive. O Despacho não é apenas um lugar para ficar; é um lar que inspira." },
+                    "ricardo": { "name": "Ricardo Costa", "role": "Residente, Suite 2", "text": "A beleza arquitetónica desta propriedade é inigualável. É raro encontrar um lugar que equilibre tão bem a herança e o luxo moderno." },
+                    "sofia": { "name": "Sofia Gomes", "role": "Residente, Quarto 5", "text": "Mudar-me para o Despacho foi a melhor decisão que tomei. O nível de serviço e a qualidade do quarto estão além de 10/10." }
                 }
             },
             "cities": {
-                "badge": "Destinos em Portugal",
-                "title": "Explore os locais",
-                "title_italic": "mais icónicos de Portugal.",
-                "explore": "Explorar Estadias",
-                "rooms_count": "Quartos",
+                "badge": "Destaques da Propriedade",
+                "title": "Explore os Nossos",
+                "title_italic": "Espaços Exclusivos.",
+                "explore": "Ver Detalhes",
+                "rooms_count": "Detalhes",
                 "types": {
-                    "capital": "Viver na Capital",
-                    "riverside": "Charme à Beira-rio",
-                    "heritage": "Património e Arte",
-                    "sun": "Sol e Relaxamento"
+                    "capital": "Espaços Sociais",
+                    "riverside": "Área de Bem-estar",
+                    "heritage": "Jardim Santuário",
+                    "sun": "Deck Privado"
                 }
             },
             "faq": {
@@ -403,207 +414,218 @@ const resources = {
                 "title": "Questões",
                 "title_italic": "Comuns.",
                 "items": [
-                    { "q": "Como verifico o meu estatuto de estudante?", "a": "Pode carregar a sua carta de aceitação da universidade ou cartão de estudante diretamente através do nosso portal de reservas. A verificação demora normalmente menos de 12 horas." },
-                    { "q": "Existe um requisito de estadia mínima?", "a": "A maioria das nossas estadias premium tem um requisito mínimo de 3 meses para garantir um ambiente comunitário estável e de alta qualidade." },
-                    { "q": "O que está incluído no preço mensal?", "a": "O preço é com tudo incluído: contas de serviços públicos, internet de fibra de alta velocidade, limpeza profissional semanal e suporte de concierge 24/7." },
-                    { "q": "Posso mudar-me entre diferentes cidades de Portugal?", "a": "Sim! O nosso programa 'PortugalPass' permite que se mude entre as nossas propriedades em diferentes cidades com um simples aviso prévio de 30 dias." }
+                    { "q": "Como garanto um quarto no Despacho?", "a": "Basta preencher o nosso formulário de consulta. O nosso Gestor da Casa entrará em contacto para uma visita privada e verificação de identidade em menos de 12 horas." },
+                    { "q": "As despesas estão incluídas no aluguer?", "a": "Sim, todos os nossos quartos são 'all-inclusive'. Isto cobre água, eletricidade, fibra de alta velocidade e limpeza profissional semanal." },
+                    { "q": "Qual é o período mínimo de contrato?", "a": "Para manter os nossos padrões comunitários, normalmente exigimos uma estadia mínima de 6 meses." },
+                    { "q": "Posso visitar a propriedade antes de reservar?", "a": "Absolutamente. Incentivamos visitas privadas. Também pode solicitar uma visita virtual guiada em 4K com o nosso gestor." }
                 ]
             },
             "footer": {
-                "desc": "Redefinindo o conceito de habitação em Portugal para o explorador moderno. Aluguer de quartos premium, verificados e focados na comunidade.",
-                "quick_explore": "Exploração Rápida",
-                "support": "Suporte",
+                "desc": "Redefinindo o conceito de alojamento boutique no Despacho. Uma única propriedade de elite que oferece uma experiência de aluguer de quartos focada na comunidade.",
+                "quick_explore": "Links Rápidos",
+                "support": "Concierge",
                 "lets_connect": "Conectemo-nos",
-                "rights": "Todos os Direitos Reservados.",
+                "rights": "Todos os Direitos Reservados. © 2026 Despacho.",
                 "subscribe": {
-                    "title": "Mantenha-se Atualizado",
-                    "desc": "Junte-se à nossa newsletter de elite para lançamentos exclusivos de propriedades.",
+                    "title": "Dentro do Despacho",
+                    "desc": "Junte-se à nossa newsletter para atualizações sobre quartos disponíveis e eventos da comunidade.",
                     "placeholder": "Introduza o seu e-mail",
-                    "button": "Subscrever"
+                    "button": "Aderir"
                 },
                 "links": {
-                    "rooms": "Quartos", "about": "Sobre Nós", "cities": "Cidades", "services": "Serviços", "pricing": "Preços",
-                    "help": "Centro de Ajuda", "safety": "Segurança e Proteção", "guide": "Guia de Reserva", "terms": "Termos de Serviço", "privacy": "Política de Privacidade"
+                    "rooms": "Os Nossos Quartos", "about": "A Nossa História", "cities": "Espaços", "services": "Serviços", "pricing": "Tarifas",
+                    "help": "Portal do Residente", "safety": "Regras da Casa", "guide": "Guia de Estadia", "terms": "Termos", "privacy": "Privacidade"
                 }
             },
             "benefits": {
-                "badge": "Porquê a EuroRent",
-                "title": "Vida de Luxo",
-                "title_italic": "Simplicada.",
-                "desc": "Orgulhamo-nos de oferecer uma experiência perfeita que prioriza o seu conforto, segurança e satisfação final em todo o Portugal.",
-                "button": "Saiba Mais Sobre Segurança",
+                "badge": "Porquê o Despacho",
+                "title": "Vida Boutique",
+                "title_italic": "Aperfeiçoada.",
+                "desc": "Orgulhamo-nos de oferecer uma experiência personalizada que prioriza a sua privacidade, segurança e conforto final dentro das nossas paredes.",
+                "button": "Padrões de Segurança",
                 "items": {
-                    "verified": { "title": "Habitação Verificada", "desc": "Cada quarto passa por uma rigorosa inspeção de 50 pontos antes de ser listado." },
-                    "instant": { "title": "Reserva Instantânea", "desc": "Garanta o seu quarto em minutos com o nosso motor de reservas de alta velocidade." },
-                    "prime": { "title": "Localizações Prime", "desc": "Propriedades estratégicas localizadas a minutos dos marcos da cidade." },
-                    "support": { "title": "Suporte ao Estudante", "desc": "Concierge dedicado 24/7 para assistência a estudantes internacionais." }
+                    "verified": { "title": "Quartos Exclusivos", "desc": "Cada quarto é desenhado de forma única e mantido sob os mais altos padrões de luxo." },
+                    "instant": { "title": "Estadia Sem Falhas", "desc": "Experimente um processo de entrada fluido gerido pela nossa equipa dedicada." },
+                    "prime": { "title": "Propriedade Icónica", "desc": "Um edifício histórico atualizado com comodidades modernas numa localização privilegiada." },
+                    "support": { "title": "Gestor da Casa", "desc": "Assistência personalizada 24/7 para todos os residentes da propriedade." }
                 }
             },
             "booking_form": {
-                "title": "Diga",
-                "title_italic": "olá!",
+                "title": "Junte-se à nossa",
+                "title_italic": "comunidade.",
                 "labels": {
                     "name": "O Seu Nome",
                     "email": "O Seu E-mail",
                     "phone": "Número de Telefone",
-                    "message": "Mensagem"
+                    "message": "Preferências"
                 },
                 "placeholders": {
-                    "name": "Introduza o seu nome aqui...",
-                    "email": "Introduza o seu e-mail aqui...",
-                    "phone": "Introduza o seu telefone aqui...",
-                    "message": "Introduza a sua mensagem"
+                    "name": "Introduza o seu nome...",
+                    "email": "Introduza o seu e-mail...",
+                    "phone": "Introduza o seu telefone...",
+                    "message": "Conte-nos sobre a sua estadia ideal..."
                 },
-                "button": "Enviar a Sua Mensagem",
+                "button": "Candidatar-se à Residência",
                 "info": {
-                    "direct": "Canal Direto",
-                    "connect": "Conecte-se connosco",
-                    "visit": "Visite a Nossa Sede",
+                    "direct": "Gestor da Propriedade",
+                    "connect": "Entre em contacto",
+                    "visit": "Localização",
                     "residents": "Residentes",
-                    "rating": "Classificação",
-                    "support": "Suporte Global 24/7 Disponível"
+                    "rating": "Pontuação",
+                    "support": "Suporte Personalizado da Propriedade"
                 }
             },
             "about_comp": {
-                "badge": "A Nossa História",
-                "title": "Aluguer de Quartos",
-                "title_italic": "Redefinido.",
-                "desc1": "Na EuroRent Portugal, acreditamos que o seu lar é a base da sua jornada. Fundada no coração de Lisboa, a nossa missão sempre foi simplificar as complexidades do aluguer de quartos em Portugal.",
-                "desc2": "Não apenas listamos quartos; curamos experiências. Cada propriedade no nosso portfólio é meticulosamente verificada quanto à segurança, luxo e proximidade com a cultura local.",
+                "badge": "A Nossa Herança",
+                "title": "Despacho",
+                "title_italic": "Legado.",
+                "desc1": "No Despacho, acreditamos que a sua casa é mais do que um quarto; é um santuário para o crescimento. A nossa propriedade histórica é um testemunho da fusão entre herança e visão moderna.",
+                "desc2": "Não alugamos apenas quartos; acolhemos uma comunidade de visionários. Cada centímetro do Despacho é curado para aqueles que procuram a excelência na sua vida quotidiana.",
                 "stats": {
-                    "years": "Anos a Curar Estadias Perfeitas em Portugal",
-                    "properties": "Propriedades Premium",
-                    "response": "Resposta de Concierge"
+                    "years": "Anos a Acolher Residentes Excecionais",
+                    "properties": "Quartos de Assinatura",
+                    "response": "Resposta do Gestor"
                 }
             },
             "contact": {
                 "hero": {
-                    "title": "CONECTE-SE COM",
-                    "title_italic": "EXCELÊNCIA.",
-                    "subtitle": "Os nossos consultores dedicados estão à disposição para guiar a sua jornada pelas residências mais exclusivas do mundo."
+                    "title": "DESCUBRA O",
+                    "title_italic": "DESPACHO.",
+                    "subtitle": "O nosso Gestor da Casa está pronto para lhe dar as boas-vindas à residência boutique mais exclusiva."
                 },
                 "tiles": {
-                    "phone": { "title": "Linha Direta", "label": "Suporte de Elite 24/7" },
-                    "email": { "title": "Inquérito Digital", "label": "Resposta Média: 15min" },
-                    "office": { "title": "Escritório Privado", "label": "Apenas por Marcação" }
+                    "phone": { "title": "Chamada para o Gestor", "label": "Linha Direta da Casa" },
+                    "email": { "title": "Consulta Digital", "label": "Resposta: Menos de 1h" },
+                    "office": { "title": "A Propriedade", "label": "Entrada Privada Apenas" }
                 },
                 "specific": {
-                    "title": "TEM UM",
-                    "title_italic": "PEDIDO",
-                    "title_end": "ESPECÍFICO?",
-                    "desc": "Quer esteja à procura de uma recolocação corporativa ou de um santuário privado, a nossa equipa está preparada para lidar com os requisitos mais complexos."
+                    "title": "UM PEDIDO",
+                    "title_italic": "ÚNICO",
+                    "title_end": "?",
+                    "desc": "Quer necessite de modificações específicas no quarto ou acordos de chegada de longo prazo, estamos aqui para acomodar a sua visão."
                 },
                 "form": {
-                    "title": "Solicitar uma Consulta",
-                    "subtitle": "A sua privacidade é a nossa prioridade. Um consultor entrará em contacto através do seu método preferido.",
+                    "title": "Consultar sobre Residência",
+                    "subtitle": "A sua candidatura é privada. O nosso gestor entrará em contacto para discutir a sua entrada.",
                     "name": "Nome Completo",
                     "email": "Endereço de E-mail",
                     "interest": {
-                        "label": "Interessado em",
-                        "options": ["Penthouse Sob Medida", "Suite Executiva", "Estúdio Artesanal", "Alojamento Corporativo"]
+                        "label": "Quarto de Interesse",
+                        "options": ["Azure Suite", "Garden Loft", "Heritage Studio", "The Master Chamber"]
                     },
                     "message": "Mensagem",
-                    "message_placeholder": "Descreva a sua residência ideal...",
-                    "send": "Enviar Inquérito Privado"
+                    "message_placeholder": "Conte-nos sobre os seus requisitos de estadia...",
+                    "send": "Enviar Consulta"
                 },
                 "commitment": {
                     "title": "O",
-                    "title_sub": "COMPROMISSO.",
+                    "title_sub": "CUIDADO.",
                     "items": {
-                        "response": { "title": "Resposta Garantida", "desc": "Os consultores respondem em menos de 2 horas durante o horário comercial." },
-                        "privacy": { "title": "Privacidade em Primeiro Lugar", "desc": "Os seus dados são encriptados e nunca partilhados com terceiros." },
-                        "virtual": { "title": "Visitas Virtuais", "desc": "Solicite uma visita guiada em 4K através de um link de vídeo encriptado." }
+                        "response": { "title": "Contacto Direto", "desc": "O nosso gestor responde pessoalmente a cada consulta." },
+                        "privacy": { "title": "Privacidade do Residente", "desc": "Discrição e privacidade são os pilares do Despacho." },
+                        "virtual": { "title": "Visita Virtual", "desc": "Solicite uma visita guiada em 4K do seu futuro quarto." }
                     }
                 }
             },
             "rooms_page": {
                 "hero": {
-                    "badge": "A Residência de Elite",
-                    "title": "VIDA",
-                    "title_italic": "REDEFINIDA.",
-                    "quote": "Uma coleção de espaços de vida feitos à medida, onde o património se une ao luxo moderno. Não fornecemos apenas quartos; curamos experiências para os residentes mais exigentes do mundo."
+                    "badge": "Quartos Despacho",
+                    "title": "O SEU",
+                    "title_italic": "SANTUÁRIO.",
+                    "quote": "Uma coleção curada de espaços de vida dentro de uma única propriedade histórica. Oferecemos uma experiência de residência inigualável para o viajante exigente."
                 },
                 "philosophy": {
-                    "badge": "Secção I: A Filosofia",
-                    "title": "ALÉM DO",
-                    "title_italic": "ORDINÁRIO.",
-                    "desc": "Na EuroRent, a nossa filosofia baseia-se na crença de que o seu ambiente molda o seu futuro. Cada residência no nosso portfólio exclusivo em Portugal é selecionada manualmente, não apenas pela sua beleza arquitetónica, mas pelo seu espírito e alma. Focamo-nos na luz natural, materiais premium e design intencional para criar um santuário de crescimento e inspiração.",
+                    "badge": "Secção I: A Visão",
+                    "title": "ALÉM DE UM",
+                    "title_italic": "QUARTO.",
+                    "desc": "No Despacho, acreditamos que o seu ambiente determina o seu foco. Toda a nossa propriedade é um ecossistema meticulosamente desenhado. Da luz natural à mobília artesanal premium, cada quarto é um santuário.",
                     "blue_standard": {
-                        "title": "O Padrão Azul",
-                        "desc": "As nossas propriedades são avaliadas através de uma verificação de integridade de 200 pontos. Da acústica da sala de estar à qualidade do mármore na suite, cada detalhe é escrutinado para garantir que cumpre o padrão de assinatura da EuroRent."
+                        "title": "O Padrão Despacho",
+                        "desc": "Os nossos quartos não são apenas verificados; são curados. Cada tecido e detalhe é selecionado para cumprir o nosso padrão de assinatura de qualidade e paz."
                     },
                     "bespoke": {
-                        "title": "Curadoria Personalizada",
-                        "desc": "Não oferecemos inventário de mercado de massa. Cada quarto é uma obra-prima única, mobilada com peças desenhadas à medida e tecnologia de classe mundial, refletindo o auge do artesanato português."
+                        "title": "Vida Artesanal",
+                        "desc": "Rejeitamos o mercado de massa. Cada quarto no Despacho é uma obra-prima única, com peças feitas à medida que honram o legado da nossa propriedade."
                     }
                 },
                 "experience": {
-                    "badge": "Secção II: A Experiência",
-                    "title": "A SERVICE THAT", // Fixed typo "NEVER SLEEPS" to match English
-                    "title_italic": "NUNCA DORME.",
-                    "quote": "Viver connosco significa entrar num mundo de luxo sem esforço. A nossa equipa de concierge dedicada trata das complexidades da mudança, para que se possa focar em deixar a sua marca na história.",
+                    "badge": "Secção II: A Casa",
+                    "title": "SERVIÇO QUE",
+                    "title_italic": "INSPIRA.",
+                    "quote": "Viver no Despacho significa total paz de espírito. A nossa equipa gere a casa para que possa gerir o seu futuro.",
                     "items": {
-                        "concierge": { "title": "Concierge 24/7", "desc": "Assistentes privados disponíveis para qualquer solicitação, desde viagens a manutenção doméstica." },
-                        "security": { "title": "Acesso Seguro", "desc": "Sistemas de segurança de última geração e protocolos de entrada privada para todas as residências." },
-                        "housekeeping": { "title": "Limpeza de Elite", "desc": "Gestão profissional de limpeza e roupas de cama, agendada de acordo com o seu estilo de vida." }
+                        "concierge": { "title": "Gestor no Local", "desc": "Um anfitrião dedicado disponível para todas as suas necessidades, da manutenção à descoberta local." },
+                        "security": { "title": "Entrada Privada", "desc": "Sistemas de segurança de última geração e privacidade absoluta para todos os nossos residentes." },
+                        "housekeeping": { "title": "Limpeza de Assinatura", "desc": "Serviços de limpeza orientados ao detalhe, agendados de acordo com a sua preferência." }
                     }
                 },
                 "invitation": {
-                    "title": "JUNTE-SE AO",
-                    "title_italic": "CÍRCULO INTERNO.",
-                    "desc": "A entrada no nosso portfólio privado é feita apenas por convite. Convidamo-lo a ligar-se aos nossos consultores e descobrir uma residência que se alinhe perfeitamente com a sua jornada.",
-                    "button": "Solicitar Visita Privada"
+                    "title": "ADIRA À",
+                    "title_italic": "RESIDÊNCIA.",
+                    "desc": "A entrada na comunidade Despacho é feita apenas por consulta. Contacte-nos para descobrir o seu quarto perfeito.",
+                    "button": "Candidatar-se"
+                },
+                "signature_suite": {
+                    "badge": "Secção III: Espaço de Assinatura",
+                    "title": "A EXPERIÊNCIA",
+                    "title_italic": "MASTER.",
+                    "desc": "Uma mistura harmoniosa de herança arquitetónica e luxo vanguardista. A Master Suite no Despacho não é apenas um quarto; é uma afirmação de conquista e gosto refinado.",
+                    "features": [
+                        "Vistas Panorâmicas de Jardim",
+                        "Mármore Italiano Feito à Mão",
+                        "Biblioteca e Estúdio Privados"
+                    ]
                 }
             },
             "about_page": {
                 "hero": {
-                    "title": "O FUTURO DA",
-                    "title_italic": "RESIDÊNCIA.",
-                    "est": "EST. 2026 • HUB GLOBAL DE PORTUGAL"
+                    "title": "A NOSSA CASA,",
+                    "title_italic": "A SUA HISTÓRIA.",
+                    "est": "EST. 2026 • A PROPRIEDADE DESPACHO"
                 },
                 "heritage": {
-                    "badge": "Desde a Nossa Criação",
-                    "title": "CRIANDO",
-                    "title_italic": "LEGADOS.",
-                    "desc": "A nossa história começou nos becos escondidos de Alfama e nas ruas históricas do Porto. Percebemos que, para o cidadão global, um quarto não é apenas um lugar para dormir — é a base da sua ambição. A EuroRent foi construída para colmatar a lacuna entre a hospitalidade tradicional portuguesa e as necessidades do residente moderno e exigente.",
-                    "quote": "Não lhe encontramos apenas um espaço; encontramos-lhe um lar que entende a sua ambição.",
-                    "stat_label": "Cidades Prime"
+                    "badge": "A Nossa História",
+                    "title": "CURANDO O",
+                    "title_italic": "CONFORTO.",
+                    "desc": "O Despacho nasceu do desejo de criar um santuário onde a herança e a vida de alto nível convergem. Transformámos esta propriedade histórica numa residência boutique para those que valorizam tanto a história como a inovação.",
+                    "quote": "Não construímos apenas quartos; construímos uma plataforma para os ambiciosos.",
+                    "stat_label": "Quartos de Assinatura"
                 },
                 "pillars": {
-                    "badge": "Os Nossos Pilares",
-                    "title": "PELO QUE",
-                    "title_italic": "NOS BATEMOS.",
+                    "badge": "Pilares da Casa",
+                    "title": "O QUE NOS",
+                    "title_italic": "DEFINE.",
                     "items": {
                         "precision": {
-                            "title": "Precisão",
-                            "desc": "Cada residência é avaliada com rigor científico para garantir o máximo desempenho.",
-                            "stat": "Verificação de 200+ Pontos"
+                            "title": "Design",
+                            "desc": "Cada quarto é um estudo científico em conforto e luxo ergonómico.",
+                            "stat": "Selecionados"
                         },
                         "transparency": {
-                            "title": "Transparência",
-                            "desc": "Sem taxas ocultas. Sem surpresas. Apenas acordos de serviço claros e de nível elite.",
+                            "title": "Integridade",
+                            "desc": "Termos simples e tudo incluído. Sem surpresas, apenas excelência na residência.",
                             "stat": "100% Verificado"
                         },
                         "humanity": {
-                            "title": "Humanidade",
-                            "desc": "Priorizamos o bem-estar mental e físico do residente acima de tudo.",
-                            "stat": "Cuidado Global"
+                            "title": "Comunidade",
+                            "desc": "Priorizamos o bem-estar do residente e a inspiração social.",
+                            "stat": "Cuidado Curado"
                         }
                     }
                 },
                 "team": {
-                    "badge": "A Nossa Liderança",
-                    "title": "OS CÉREBROS",
-                    "title_italic": "POR DETRÁS.",
-                    "desc": "A nossa equipa é composta por arquitetos premiados, veteranos da hospitalidade e visionários do setor imobiliário. Estamos unidos por um objetivo comum: reescrever as regras da vida moderna.",
-                    "excellence": { "title": "Excelência Curada", "desc": "Vencedor do Portugal Real Estate 2025" },
-                    "passion": { "title": "Foco na Paixão", "desc": "Profundamente comprometidos com o sucesso do residente." }
+                    "badge": "A Equipa",
+                    "title": "AS MÃOS",
+                    "title_italic": "NA CASA.",
+                    "desc": "A nossa equipa é um pequeno grupo dedicado de especialistas em hospitalidade e historiadores de propriedades comprometidos com a sua experiência.",
+                    "excellence": { "title": "Herança da Casa", "desc": "Custódios de uma vida excecional." },
+                    "passion": { "title": "Sucesso do Residente", "desc": "Comprometidos com o seu conforto todos os dias." }
                 },
                 "mission": {
-                    "title": "UMA VISÃO,",
-                    "title_italic": "ESTADIAS INFINITAS.",
+                    "title": "UMA CASA,",
+                    "title_italic": "O SEU LAR.",
                     "quote": "A nossa missão é construir um mundo onde qualquer pessoa se sinta em casa, em qualquer lugar, sem comprometer o luxo.",
-                    "button": "Saiba Mais Sobre Nós"
+                    "button": "Descobrir o Despacho"
                 }
             }
         }

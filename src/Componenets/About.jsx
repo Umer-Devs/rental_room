@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { Home12 } from '../assets';
 import { useTranslation } from 'react-i18next';
 
 const About = () => {
@@ -19,8 +20,8 @@ const About = () => {
                     >
                         <div className="relative z-10 rounded-[4rem] overflow-hidden flex justify-end  transform transition-transform duration-700">
                             <img
-                                src="https://images.unsplash.com/photo-1572891086295-6c1c7c476549?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cm9vbSUyMGZvciUyMHJlbnR8ZW58MHx8MHx8fDA%3D"
-                                alt="Lisbon Portugal Living"
+                                src={Home12}
+                                alt="Despacho Property"
                                 className="w-full max-w-2xl object-cover"
                             />
                         </div>

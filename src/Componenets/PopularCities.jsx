@@ -4,33 +4,35 @@ import { MapPin, ArrowRight } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 
+import { Home8, Home9, Home10, Home11 } from '../assets';
+
 const cities = [
     {
-        id: "lisbon",
-        name: "Lisbon",
-        rooms: "250+ ",
-        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWHN8tWZa9eZMJUbzbXEUHyunE8U6_82yJYB9lMGRBKc2WPKXPX6vrVb0&s",
+        id: "space1",
+        name: "Sala de Estar",
+        rooms: "4",
+        image: Home8,
         type_key: "capital"
     },
     {
-        id: "porto",
-        name: "Porto",
-        rooms: "180+ ",
-        image: "https://images.unsplash.com/photo-1555881400-74d7acaacd8b?q=80&w=2070&auto=format&fit=crop",
+        id: "space2",
+        name: "Área Gourmet",
+        rooms: "2",
+        image: Home9,
         type_key: "riverside"
     },
     {
-        id: "braga",
-        name: "Braga",
-        rooms: "90+ ",
-        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1q0NLfOCnlcCpgpTCd2MNc2qReXyaGksiew1jd-sUREpQgxiyWog5gWoBAaAkXEA3aiST&s",
+        id: "space3",
+        name: "Jardim",
+        rooms: "1",
+        image: Home10,
         type_key: "heritage"
     },
     {
-        id: "algarve",
-        name: "Algarve",
-        rooms: "120+ ",
-        image: "https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?q=80&w=2070&auto=format&fit=crop",
+        id: "space4",
+        name: "Terraço",
+        rooms: "2",
+        image: Home11,
         type_key: "sun"
     }
 ];

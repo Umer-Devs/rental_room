@@ -4,12 +4,9 @@ import { ArrowRight, MapPin, Calendar, Users, ShieldCheck, House } from 'lucide-
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 
-const images = [
-    'https://plus.unsplash.com/premium_photo-1694475457130-360b91acf5ad?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8ZXVyb3BlJTIwYmVzdCUyMHBsYWNlJTIwdG8lMjB2aXNpdHxlbnwwfHwwfHx8MA%3D%3D',
-    'https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?q=80&w=2070&auto=format&fit=crop',
-    'https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?q=80&w=2080&auto=format&fit=crop',
-    'https://images.unsplash.com/photo-1493809842364-78817add7ffb?q=80&w=2070&auto=format&fit=crop',
-];
+import { Home1, Home2, Home3, Home4 } from '../assets';
+
+const images = [Home1, Home2, Home3, Home4];
 
 const Hero = () => {
     const { t } = useTranslation();
@@ -79,7 +76,7 @@ const Hero = () => {
                             <House className="text-[#55A2C2] shrink-0" size={24} />
                             <div className="text-left flex-1 min-w-0">
                                 <p className="text-[9px] md:text-[10px] font-black text-[#55A2C2] uppercase tracking-[0.2em] mb-1">{t('hero.search.destination')}</p>
-                               <div className={`
+                                <div className={`
     bg-transparent 
     border-none 
     outline-none 
@@ -91,10 +88,10 @@ const Hero = () => {
     cursor-pointer
     
   `}
-  
->
-  {t('hero.search.select_city')}
-</div>
+
+                                >
+                                    {t('hero.search.select_city')}
+                                </div>
                             </div>
                         </div>
 
@@ -118,7 +115,7 @@ const Hero = () => {
                         </Link>
                     </div>
                 </motion.div>
-                
+
                 <motion.div
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
